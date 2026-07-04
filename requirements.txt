@@ -1,0 +1,21 @@
+# Core training stack
+unsloth
+torch>=2.1.0
+transformers>=4.46.0
+trl>=0.12.0
+peft>=0.13.0
+datasets>=3.0.0
+accelerate>=0.34.0
+
+# Fast HF downloads
+huggingface_hub>=0.25.0
+# hf_transfer>=0.1.8  — Rust wheel, Python 3.8+ only; install separately if available
+
+# Evaluation
+bert-score>=0.3.13
+
+# Quantization (required by Unsloth kernels even for non-4bit runs)
+bitsandbytes
+
+# Utilities
+numpy>=1.26.0

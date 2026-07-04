@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "unsloth",
+  "owner": "sapsapshen",
+  "repo": "ai-memory-router",
+  "path": "skills-store/hermes/unsloth",
+  "branch": "main",
+  "sha": "d5fb708d168729150517d9cd63bb2babd004e70a",
+  "source": "manual"
+}

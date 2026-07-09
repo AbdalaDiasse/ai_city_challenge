@@ -1,0 +1,110 @@
+Loading cuda/12.1
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload cuda" first.
+
+Loading cineca-ai/4.3.0
+  ERROR: Load of requirement cuda/12.1 failed
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!🦥 Unsloth Zoo will now patch everything to make training faster!
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🦥 Unsloth Zoo will now patch everything to make training faster!
+
+Resuming: 240 items already done.
+Shard 3/4: 240 items  |  video_root: /leonardo_work/AIH4A_syrate/data/track3/videos/tar_test
+Loading base model: unsloth/Qwen3-VL-8B-Instruct
+Resuming: 240 items already done.
+Shard 0/4: 240 items  |  video_root: /leonardo_work/AIH4A_syrate/data/track3/videos/tar_test
+Loading base model: unsloth/Qwen3-VL-8B-Instruct
+Resuming: 240 items already done.
+Shard 1/4: 240 items  |  video_root: /leonardo_work/AIH4A_syrate/data/track3/videos/tar_test
+Loading base model: unsloth/Qwen3-VL-8B-Instruct
+Resuming: 240 items already done.
+Shard 2/4: 240 items  |  video_root: /leonardo_work/AIH4A_syrate/data/track3/videos/tar_test
+Loading base model: unsloth/Qwen3-VL-8B-Instruct
+==((====))==  Unsloth 2026.6.9: Fast Qwen3_Vl patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA A100-SXM-64GB. Num GPUs = 1. Max memory: 63.423 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.12.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.7.1
+\        /    Bfloat16 = TRUE. FA [Xformers = None. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: QLoRA and full finetuning all not selected. Switching to 16bit LoRA.
+==((====))==  Unsloth 2026.6.9: Fast Qwen3_Vl patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA A100-SXM-64GB. Num GPUs = 1. Max memory: 63.423 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.12.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.7.1
+\        /    Bfloat16 = TRUE. FA [Xformers = None. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: QLoRA and full finetuning all not selected. Switching to 16bit LoRA.
+==((====))==  Unsloth 2026.6.9: Fast Qwen3_Vl patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA A100-SXM-64GB. Num GPUs = 1. Max memory: 63.423 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.12.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.7.1
+\        /    Bfloat16 = TRUE. FA [Xformers = None. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: QLoRA and full finetuning all not selected. Switching to 16bit LoRA.
+==((====))==  Unsloth 2026.6.9: Fast Qwen3_Vl patching. Transformers: 5.5.0.
+   \\   /|    NVIDIA A100-SXM-64GB. Num GPUs = 1. Max memory: 63.423 GB. Platform: Linux.
+O^O/ \_/ \    Torch: 2.12.1+cu126. CUDA: 8.0. CUDA Toolkit: 12.6. Triton: 3.7.1
+\        /    Bfloat16 = TRUE. FA [Xformers = None. FA2 = False]
+ "-____-"     Free license: http://github.com/unslothai/unsloth
+Unsloth: QLoRA and full finetuning all not selected. Switching to 16bit LoRA.
+Applying LoRA adapter: /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1/lora_adapter
+Applying LoRA adapter: /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1/lora_adapter
+Applying LoRA adapter: /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1/lora_adapter
+Applying LoRA adapter: /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1/lora_adapter
+Model ready.
+
+Done. 240 predicted, 0 skipped (missing video).
+Raw predictions → /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard2.jsonl
+Next: python track3/postprocess.py --input /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard2.jsonl --output /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv
+Model ready.
+
+Done. 240 predicted, 0 skipped (missing video).
+Raw predictions → /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard3.jsonl
+Next: python track3/postprocess.py --input /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard3.jsonl --output /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv
+Model ready.
+Model ready.
+
+Done. 240 predicted, 0 skipped (missing video).
+Raw predictions → /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard0.jsonl
+Next: python track3/postprocess.py --input /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard0.jsonl --output /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv
+
+Done. 240 predicted, 0 skipped (missing video).
+Raw predictions → /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard1.jsonl
+Next: python track3/postprocess.py --input /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions_shard1.jsonl --output /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv
+All shards done. Merging...
+Merge done. Running postprocess...
+Loaded 960 raw predictions from /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/raw_predictions.jsonl
+[WARN] Skipped item 12e63cdb6b7655c4 (task=bcq) — using default
+[WARN] Skipped item 09dc75147fd6092b (task=bcq) — using default
+[WARN] Skipped item dcd547b4c7b125ca (task=bcq_openended) — using default
+[WARN] Skipped item dcaee7b197cd46c0 (task=bcq_openended) — using default
+[WARN] Skipped item 758bf170746aca3c (task=causal_linkage) — using default
+[WARN] Skipped item 5c48d6ba200d010b (task=mcq) — using default
+[WARN] Skipped item 91a91c2758721536 (task=mcq_openended) — using default
+[WARN] Skipped item 69156097a1f4baa0 (task=open_qa) — using default
+[WARN] Skipped item 563d0715df9338b0 (task=scene_description) — using default
+[WARN] Skipped item 851e2ec8c24f51e6 (task=temporal_description) — using default
+[WARN] Skipped item 1e6c4d9c2707b1b0 (task=temporal_localization) — using default
+[WARN] Skipped item dc2e3eabfce9d187 (task=video_summarization) — using default
+
+Submission CSV → /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv  (960 rows)
+
+Task                         predicted  total
+----------------------------------------------
+  bcq                              158    160
+  bcq_openended                    158    160
+  causal_linkage                    79     80
+  mcq                               79     80
+  mcq_openended                     79     80
+  open_qa                           79     80
+  scene_description                 79     80
+  temporal_description              79     80
+  temporal_localization             79     80
+  video_summarization               79     80
+
+Validate with:
+  python /leonardo_work/AIH4A_syrate/data/track3/annotations/test/evaluate.py \
+    --gt /leonardo_work/AIH4A_syrate/data/track3/annotations/test/test.json \
+    --submission /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv
+Submission CSV → /leonardo_work/AIH4A_syrate/predictions/sft_thinking_v1_lora_adapter/submission.csv

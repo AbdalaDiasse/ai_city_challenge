@@ -1,0 +1,801 @@
+W0709 19:33:28.269000 261937 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.269000 261938 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.269000 261935 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.269000 261936 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.343000 261936 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.343000 261938 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.343000 261935 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0709 19:33:28.343000 261937 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 1/750 [00:05<1:10:56,  5.68s/it]Loading weights:   0%|          | 1/750 [00:05<1:10:58,  5.68s/it]Loading weights:   0%|          | 2/750 [00:06<32:11,  2.58s/it]  Loading weights:   0%|          | 2/750 [00:06<32:29,  2.61s/it]  Loading weights:   0%|          | 1/750 [00:06<1:19:02,  6.33s/it]Loading weights:   0%|          | 1/750 [00:06<1:19:02,  6.33s/it]Loading weights:   0%|          | 3/750 [00:06<21:35,  1.73s/it]  Loading weights:   1%|          | 4/750 [00:06<16:17,  1.31s/it]  Loading weights:   1%|          | 4/750 [00:06<14:32,  1.17s/it]Loading weights:   1%|          | 4/750 [00:07<16:15,  1.31s/it]Loading weights:   1%|          | 5/750 [00:07<11:47,  1.05it/s]Loading weights:   1%|          | 5/750 [00:07<13:21,  1.08s/it]Loading weights:   1%|          | 4/750 [00:07<16:49,  1.35s/it]Loading weights:   2%|▏         | 13/750 [00:07<02:45,  4.45it/s]Loading weights:   2%|▏         | 13/750 [00:07<03:20,  3.67it/s]Loading weights:   2%|▏         | 13/750 [00:07<03:23,  3.63it/s]Loading weights:   2%|▏         | 13/750 [00:07<03:14,  3.80it/s]Loading weights:   2%|▏         | 15/750 [00:07<02:33,  4.78it/s]Loading weights:   2%|▏         | 16/750 [00:07<02:43,  4.49it/s]Loading weights:   2%|▏         | 16/750 [00:07<02:39,  4.59it/s]Loading weights:   2%|▏         | 16/750 [00:07<02:49,  4.34it/s]Loading weights:   3%|▎         | 23/750 [00:07<01:29,  8.09it/s]Loading weights:   3%|▎         | 24/750 [00:07<01:23,  8.65it/s]Loading weights:   3%|▎         | 24/750 [00:08<01:59,  6.07it/s]Loading weights:   3%|▎         | 24/750 [00:08<01:43,  7.00it/s]Loading weights:   3%|▎         | 26/750 [00:08<02:11,  5.50it/s]Loading weights:   3%|▎         | 26/750 [00:08<02:04,  5.83it/s]Loading weights:   4%|▎         | 27/750 [00:09<02:20,  5.14it/s]Loading weights:   3%|▎         | 26/750 [00:09<02:09,  5.58it/s]Loading weights:   4%|▎         | 28/750 [00:09<02:09,  5.57it/s]Loading weights:   4%|▎         | 28/750 [00:09<01:58,  6.07it/s]Loading weights:   4%|▍         | 31/750 [00:09<01:49,  6.54it/s]Loading weights:   4%|▍         | 31/750 [00:09<01:49,  6.59it/s]Loading weights:   4%|▎         | 28/750 [00:09<02:19,  5.19it/s]Loading weights:   5%|▍         | 35/750 [00:09<01:27,  8.17it/s]Loading weights:   5%|▍         | 35/750 [00:09<01:22,  8.65it/s]Loading weights:   5%|▍         | 35/750 [00:09<01:35,  7.49it/s]Loading weights:   5%|▍         | 35/750 [00:09<01:31,  7.81it/s]Loading weights:   5%|▌         | 38/750 [00:09<01:23,  8.51it/s]Loading weights:   6%|▌         | 42/750 [00:10<00:56, 12.52it/s]Loading weights:   6%|▌         | 42/750 [00:10<00:54, 13.06it/s]Loading weights:   6%|▌         | 42/750 [00:10<00:59, 11.87it/s]Loading weights:   6%|▌         | 45/750 [00:10<00:49, 14.24it/s]Loading weights:   6%|▌         | 45/750 [00:10<00:54, 12.84it/s]Loading weights:   6%|▌         | 45/750 [00:10<00:51, 13.81it/s]Loading weights:   6%|▌         | 45/750 [00:10<00:54, 13.03it/s]Loading weights:   6%|▋         | 48/750 [00:10<01:00, 11.56it/s]Loading weights:   6%|▋         | 48/750 [00:10<00:58, 11.99it/s]Loading weights:   6%|▋         | 48/750 [00:10<01:03, 11.11it/s]Loading weights:   6%|▋         | 48/750 [00:10<01:00, 11.65it/s]Loading weights:   7%|▋         | 53/750 [00:10<00:44, 15.57it/s]Loading weights:   7%|▋         | 53/750 [00:10<00:42, 16.42it/s]Loading weights:   7%|▋         | 56/750 [00:10<00:44, 15.73it/s]Loading weights:   8%|▊         | 57/750 [00:10<00:45, 15.26it/s]Loading weights:   8%|▊         | 57/750 [00:11<00:53, 13.04it/s]Loading weights:   8%|▊         | 57/750 [00:11<00:51, 13.41it/s]Loading weights:   8%|▊         | 60/750 [00:11<00:53, 12.97it/s]Loading weights:   8%|▊         | 59/750 [00:11<00:56, 12.29it/s]Loading weights:   8%|▊         | 61/750 [00:11<00:43, 15.82it/s]Loading weights:   8%|▊         | 61/750 [00:11<00:44, 15.42it/s]Loading weights:   9%|▉         | 68/750 [00:11<00:54, 12.45it/s]Loading weights:  10%|▉         | 72/750 [00:12<01:03, 10.64it/s]Loading weights:   9%|▉         | 68/750 [00:12<01:19,  8.57it/s]Loading weights:   9%|▉         | 68/750 [00:12<01:14,  9.19it/s]Loading weights:   9%|▉         | 68/750 [00:12<01:15,  8.97it/s]Loading weights:  10%|█         | 75/750 [00:12<00:54, 12.30it/s]Loading weights:  10%|█         | 75/750 [00:12<00:56, 11.93it/s]Loading weights:  10%|█         | 75/750 [00:12<01:05, 10.25it/s]Loading weights:  10%|█         | 75/750 [00:12<01:00, 11.13it/s]Loading weights:  11%|█         | 79/750 [00:12<00:47, 14.17it/s]Loading weights:  11%|█         | 81/750 [00:12<00:45, 14.74it/s]Loading weights:  11%|█         | 81/750 [00:13<00:47, 13.94it/s]Loading weights:  11%|█         | 79/750 [00:13<00:51, 13.04it/s]Loading weights:  11%|█         | 84/750 [00:13<00:41, 16.11it/s]Loading weights:  11%|█         | 82/750 [00:13<00:46, 14.47it/s]Loading weights:  12%|█▏        | 87/750 [00:13<00:34, 18.97it/s]Loading weights:  12%|█▏        | 87/750 [00:13<00:36, 17.93it/s]Loading weights:  12%|█▏        | 90/750 [00:13<00:34, 19.00it/s]Loading weights:  12%|█▏        | 91/750 [00:13<00:33, 19.90it/s]Loading weights:  12%|█▏        | 90/750 [00:13<00:41, 16.03it/s]Loading weights:  12%|█▏        | 91/750 [00:13<00:39, 16.82it/s]Loading weights:  12%|█▏        | 93/750 [00:13<00:35, 18.31it/s]Loading weights:  13%|█▎        | 95/750 [00:13<00:32, 20.20it/s]Loading weights:  13%|█▎        | 94/750 [00:13<00:41, 15.92it/s]Loading weights:  13%|█▎        | 97/750 [00:13<00:35, 18.66it/s]Loading weights:  13%|█▎        | 94/750 [00:13<00:42, 15.44it/s]Loading weights:  13%|█▎        | 98/750 [00:13<00:34, 18.96it/s]Loading weights:  13%|█▎        | 101/750 [00:13<00:34, 18.95it/s]Loading weights:  13%|█▎        | 101/750 [00:13<00:36, 17.99it/s]Loading weights:  13%|█▎        | 100/750 [00:13<00:34, 18.74it/s]Loading weights:  13%|█▎        | 101/750 [00:14<00:41, 15.48it/s]Loading weights:  14%|█▎        | 103/750 [00:14<00:39, 16.47it/s]Loading weights:  14%|█▍        | 104/750 [00:14<00:41, 15.67it/s]Loading weights:  14%|█▍        | 104/750 [00:14<00:39, 16.37it/s]Loading weights:  15%|█▍        | 112/750 [00:14<00:25, 25.11it/s]Loading weights:  15%|█▍        | 112/750 [00:14<00:26, 23.97it/s]Loading weights:  15%|█▍        | 112/750 [00:14<00:25, 24.76it/s]Loading weights:  15%|█▍        | 111/750 [00:14<00:28, 22.74it/s]Loading weights:  15%|█▌        | 115/750 [00:14<00:38, 16.44it/s]Loading weights:  15%|█▌        | 114/750 [00:14<00:35, 17.74it/s]Loading weights:  15%|█▌        | 116/750 [00:14<00:34, 18.61it/s]Loading weights:  15%|█▌        | 116/750 [00:14<00:37, 17.12it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:26, 24.10it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:24, 25.09it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:26, 24.03it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:26, 23.38it/s]Loading weights:  17%|█▋        | 127/750 [00:15<00:30, 20.11it/s]Loading weights:  17%|█▋        | 127/750 [00:15<00:32, 18.92it/s]Loading weights:  17%|█▋        | 127/750 [00:15<00:33, 18.80it/s]Loading weights:  17%|█▋        | 127/750 [00:15<00:35, 17.45it/s]Loading weights:  17%|█▋        | 131/750 [00:15<00:29, 21.33it/s]Loading weights:  17%|█▋        | 131/750 [00:15<00:29, 21.23it/s]Loading weights:  17%|█▋        | 131/750 [00:15<00:27, 22.13it/s]Loading weights:  18%|█▊        | 134/750 [00:15<00:26, 23.19it/s]Loading weights:  18%|█▊        | 136/750 [00:15<00:24, 25.54it/s]Loading weights:  18%|█▊        | 134/750 [00:15<00:28, 21.83it/s]Loading weights:  18%|█▊        | 136/750 [00:15<00:24, 24.77it/s]Loading weights:  18%|█▊        | 138/750 [00:15<00:24, 24.80it/s]Loading weights:  19%|█▊        | 140/750 [00:15<00:21, 27.99it/s]Loading weights:  18%|█▊        | 137/750 [00:15<00:26, 23.26it/s]Loading weights:  19%|█▉        | 141/750 [00:15<00:21, 28.35it/s]Loading weights:  19%|█▉        | 141/750 [00:15<00:34, 17.67it/s]Loading weights:  19%|█▉        | 142/750 [00:15<00:31, 19.27it/s]Loading weights:  19%|█▉        | 144/750 [00:15<00:29, 20.29it/s]Loading weights:  19%|█▉        | 145/750 [00:16<00:31, 19.21it/s]Loading weights:  20%|█▉        | 147/750 [00:16<00:31, 19.26it/s]Loading weights:  19%|█▉        | 145/750 [00:16<00:36, 16.60it/s]Loading weights:  20%|█▉        | 147/750 [00:16<00:35, 17.08it/s]Loading weights:  20%|█▉        | 148/750 [00:16<00:41, 14.36it/s]Loading weights:  20%|██        | 150/750 [00:16<00:33, 17.85it/s]Loading weights:  20%|██        | 150/750 [00:16<00:36, 16.43it/s]Loading weights:  20%|█▉        | 149/750 [00:16<00:37, 16.05it/s]Loading weights:  20%|██        | 153/750 [00:16<00:31, 18.81it/s]Loading weights:  21%|██        | 155/750 [00:16<00:26, 22.77it/s]Loading weights:  21%|██        | 155/750 [00:16<00:27, 21.56it/s]Loading weights:  21%|██        | 155/750 [00:16<00:26, 22.15it/s]Loading weights:  21%|██        | 158/750 [00:16<00:30, 19.21it/s]Loading weights:  21%|██        | 158/750 [00:16<00:32, 18.30it/s]Loading weights:  21%|██        | 158/750 [00:16<00:34, 16.93it/s]Loading weights:  21%|██        | 159/750 [00:16<00:30, 19.42it/s]Loading weights:  21%|██▏       | 161/750 [00:16<00:35, 16.73it/s]Loading weights:  21%|██▏       | 161/750 [00:16<00:32, 17.87it/s]Loading weights:  22%|██▏       | 162/750 [00:16<00:29, 19.96it/s]Loading weights:  21%|██▏       | 161/750 [00:17<00:38, 15.25it/s]Loading weights:  22%|██▏       | 164/750 [00:17<00:30, 19.32it/s]Loading weights:  22%|██▏       | 164/750 [00:17<00:31, 18.31it/s]Loading weights:  22%|██▏       | 165/750 [00:17<00:27, 21.14it/s]Loading weights:  22%|██▏       | 167/750 [00:17<00:32, 17.81it/s]Loading weights:  23%|██▎       | 169/750 [00:17<00:28, 20.29it/s]Loading weights:  22%|██▏       | 167/750 [00:17<00:32, 18.18it/s]Loading weights:  23%|██▎       | 169/750 [00:17<00:29, 20.00it/s]Loading weights:  23%|██▎       | 172/750 [00:17<00:27, 21.17it/s]Loading weights:  23%|██▎       | 172/750 [00:17<00:26, 21.69it/s]Loading weights:  23%|██▎       | 170/750 [00:17<00:30, 19.22it/s]Loading weights:  23%|██▎       | 170/750 [00:17<00:29, 19.75it/s]Loading weights:  24%|██▎       | 177/750 [00:17<00:19, 28.89it/s]Loading weights:  24%|██▎       | 177/750 [00:17<00:21, 26.34it/s]Loading weights:  24%|██▎       | 177/750 [00:17<00:20, 27.72it/s]Loading weights:  24%|██▎       | 178/750 [00:17<00:20, 28.21it/s]Loading weights:  24%|██▍       | 180/750 [00:17<00:22, 25.59it/s]Loading weights:  24%|██▍       | 181/750 [00:17<00:19, 29.35it/s]Loading weights:  24%|██▍       | 181/750 [00:17<00:20, 28.39it/s]Loading weights:  24%|██▍       | 182/750 [00:17<00:24, 23.62it/s]Loading weights:  24%|██▍       | 183/750 [00:17<00:22, 25.25it/s]Loading weights:  25%|██▍       | 186/750 [00:17<00:25, 22.45it/s]Loading weights:  25%|██▍       | 185/750 [00:17<00:26, 21.55it/s]Loading weights:  25%|██▍       | 185/750 [00:17<00:25, 21.84it/s]Loading weights:  25%|██▍       | 185/750 [00:17<00:25, 21.84it/s]Loading weights:  25%|██▌       | 189/750 [00:18<00:27, 20.51it/s]Loading weights:  25%|██▌       | 189/750 [00:18<00:27, 20.56it/s]Loading weights:  25%|██▌       | 189/750 [00:18<00:29, 18.79it/s]Loading weights:  25%|██▌       | 189/750 [00:18<00:29, 19.24it/s]Loading weights:  26%|██▌       | 192/750 [00:18<00:27, 19.96it/s]Loading weights:  26%|██▌       | 192/750 [00:18<00:29, 19.12it/s]Loading weights:  26%|██▌       | 192/750 [00:18<00:30, 18.04it/s]Loading weights:  26%|██▌       | 192/750 [00:18<00:28, 19.36it/s]Loading weights:  26%|██▋       | 197/750 [00:18<00:23, 23.97it/s]Loading weights:  26%|██▋       | 197/750 [00:18<00:22, 24.93it/s]Loading weights:  26%|██▋       | 197/750 [00:18<00:22, 24.45it/s]Loading weights:  26%|██▌       | 195/750 [00:18<00:26, 20.97it/s]Loading weights:  26%|██▋       | 198/750 [00:18<00:32, 16.74it/s]Loading weights:  27%|██▋       | 200/750 [00:18<00:30, 18.17it/s]Loading weights:  27%|██▋       | 201/750 [00:18<00:26, 20.52it/s]Loading weights:  27%|██▋       | 200/750 [00:18<00:30, 18.33it/s]Loading weights:  27%|██▋       | 203/750 [00:18<00:30, 18.12it/s]Loading weights:  27%|██▋       | 203/750 [00:18<00:29, 18.59it/s]Loading weights:  27%|██▋       | 202/750 [00:18<00:29, 18.62it/s]Loading weights:  27%|██▋       | 204/750 [00:18<00:27, 19.85it/s]Loading weights:  28%|██▊       | 211/750 [00:19<00:19, 27.14it/s]Loading weights:  28%|██▊       | 211/750 [00:19<00:25, 21.38it/s]Loading weights:  28%|██▊       | 211/750 [00:19<00:24, 22.17it/s]Loading weights:  28%|██▊       | 213/750 [00:19<00:25, 20.96it/s]Loading weights:  29%|██▊       | 214/750 [00:19<00:24, 21.81it/s]Loading weights:  29%|██▊       | 214/750 [00:19<00:25, 20.66it/s]Loading weights:  29%|██▊       | 215/750 [00:19<00:27, 19.40it/s]Loading weights:  29%|██▉       | 216/750 [00:19<00:24, 21.81it/s]Loading weights:  29%|██▉       | 218/750 [00:19<00:29, 18.29it/s]Loading weights:  29%|██▉       | 218/750 [00:19<00:27, 19.13it/s]Loading weights:  29%|██▉       | 219/750 [00:19<00:26, 19.80it/s]Loading weights:  29%|██▉       | 218/750 [00:19<00:26, 20.39it/s]Loading weights:  30%|██▉       | 222/750 [00:19<00:23, 22.33it/s]Loading weights:  30%|██▉       | 224/750 [00:19<00:24, 21.30it/s]Loading weights:  30%|██▉       | 224/750 [00:20<00:36, 14.61it/s]Loading weights:  30%|██▉       | 222/750 [00:20<00:37, 13.96it/s]Loading weights:  30%|███       | 225/750 [00:20<00:35, 14.89it/s]Loading weights:  30%|███       | 227/750 [00:20<00:31, 16.79it/s]Loading weights:  31%|███       | 230/750 [00:20<00:26, 19.45it/s]Loading weights:  30%|███       | 226/750 [00:20<00:31, 16.78it/s]Loading weights:  31%|███       | 230/750 [00:20<00:26, 19.76it/s]Loading weights:  31%|███       | 230/750 [00:20<00:28, 18.25it/s]Loading weights:  31%|███       | 233/750 [00:20<00:26, 19.29it/s]Loading weights:  31%|███▏      | 235/750 [00:20<00:28, 17.95it/s]Loading weights:  31%|███▏      | 235/750 [00:20<00:27, 18.96it/s]Loading weights:  31%|███▏      | 235/750 [00:20<00:28, 18.34it/s]Loading weights:  32%|███▏      | 240/750 [00:20<00:21, 23.26it/s]Loading weights:  32%|███▏      | 241/750 [00:20<00:19, 26.72it/s]Loading weights:  32%|███▏      | 241/750 [00:20<00:21, 23.41it/s]Loading weights:  32%|███▏      | 241/750 [00:20<00:21, 23.96it/s]Loading weights:  33%|███▎      | 244/750 [00:20<00:23, 21.48it/s]Loading weights:  33%|███▎      | 246/750 [00:20<00:20, 24.91it/s]Loading weights:  33%|███▎      | 246/750 [00:20<00:18, 26.72it/s]Loading weights:  33%|███▎      | 246/750 [00:20<00:22, 22.10it/s]Loading weights:  33%|███▎      | 251/750 [00:21<00:16, 29.67it/s]Loading weights:  34%|███▎      | 252/750 [00:21<00:18, 26.40it/s]Loading weights:  34%|███▎      | 252/750 [00:21<00:17, 27.69it/s]Loading weights:  34%|███▎      | 252/750 [00:21<00:17, 27.75it/s]Loading weights:  34%|███▍      | 256/750 [00:21<00:32, 15.15it/s]Loading weights:  34%|███▍      | 255/750 [00:21<00:36, 13.64it/s]Loading weights:  34%|███▍      | 256/750 [00:21<00:34, 14.26it/s]Loading weights:  34%|███▍      | 256/750 [00:21<00:38, 12.97it/s]Loading weights:  35%|███▍      | 259/750 [00:21<00:32, 14.91it/s]Loading weights:  34%|███▍      | 258/750 [00:21<00:35, 14.00it/s]Loading weights:  35%|███▍      | 262/750 [00:22<00:28, 17.09it/s]Loading weights:  35%|███▌      | 265/750 [00:22<00:26, 18.60it/s]Loading weights:  35%|███▍      | 259/750 [00:22<00:39, 12.56it/s]Loading weights:  35%|███▍      | 262/750 [00:22<00:34, 14.00it/s]Loading weights:  35%|███▌      | 266/750 [00:22<00:30, 15.92it/s]Loading weights:  35%|███▌      | 266/750 [00:22<00:30, 15.91it/s]Loading weights:  35%|███▌      | 265/750 [00:22<00:30, 15.83it/s]Loading weights:  36%|███▌      | 268/750 [00:22<00:28, 16.71it/s]Loading weights:  36%|███▌      | 270/750 [00:22<00:26, 17.83it/s]Loading weights:  36%|███▌      | 270/750 [00:22<00:27, 17.54it/s]Loading weights:  36%|███▌      | 271/750 [00:22<00:33, 14.10it/s]Loading weights:  36%|███▌      | 269/750 [00:22<00:33, 14.41it/s]Loading weights:  36%|███▋      | 273/750 [00:22<00:29, 16.26it/s]Loading weights:  36%|███▋      | 273/750 [00:22<00:31, 15.28it/s]Loading weights:  37%|███▋      | 277/750 [00:22<00:24, 19.51it/s]Loading weights:  37%|███▋      | 276/750 [00:22<00:21, 21.90it/s]Loading weights:  37%|███▋      | 277/750 [00:22<00:26, 17.59it/s]Loading weights:  37%|███▋      | 279/750 [00:23<00:26, 17.50it/s]Loading weights:  37%|███▋      | 280/750 [00:23<00:29, 15.94it/s]Loading weights:  37%|███▋      | 280/750 [00:23<00:29, 15.97it/s]Loading weights:  37%|███▋      | 281/750 [00:23<00:27, 16.91it/s]Loading weights:  37%|███▋      | 280/750 [00:23<00:26, 17.59it/s]Loading weights:  38%|███▊      | 284/750 [00:23<00:27, 17.01it/s]Loading weights:  38%|███▊      | 284/750 [00:23<00:26, 17.69it/s]Loading weights:  38%|███▊      | 285/750 [00:23<00:23, 19.54it/s]Loading weights:  38%|███▊      | 284/750 [00:23<00:24, 19.10it/s]Loading weights:  38%|███▊      | 288/750 [00:23<00:22, 20.30it/s]Loading weights:  38%|███▊      | 288/750 [00:23<00:21, 21.83it/s]Loading weights:  38%|███▊      | 288/750 [00:23<00:27, 17.07it/s]Loading weights:  38%|███▊      | 288/750 [00:23<00:27, 17.07it/s]Loading weights:  39%|███▉      | 291/750 [00:23<00:25, 18.03it/s]Loading weights:  39%|███▉      | 291/750 [00:23<00:25, 18.08it/s]Loading weights:  39%|███▉      | 295/750 [00:23<00:19, 23.60it/s]Loading weights:  39%|███▉      | 292/750 [00:23<00:23, 19.30it/s]Loading weights:  40%|███▉      | 298/750 [00:23<00:21, 20.55it/s]Loading weights:  40%|███▉      | 299/750 [00:23<00:19, 23.37it/s]Loading weights:  40%|███▉      | 299/750 [00:23<00:20, 21.89it/s]Loading weights:  40%|███▉      | 299/750 [00:24<00:23, 19.12it/s]Loading weights:  40%|████      | 301/750 [00:24<00:22, 19.91it/s]Loading weights:  40%|████      | 302/750 [00:24<00:23, 19.24it/s]Loading weights:  40%|████      | 302/750 [00:24<00:25, 17.46it/s]Loading weights:  41%|████      | 304/750 [00:24<00:21, 20.54it/s]Loading weights:  41%|████      | 306/750 [00:24<00:17, 24.87it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:16, 26.60it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:16, 27.29it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:18, 24.43it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:18, 24.43it/s]Loading weights:  42%|████▏     | 314/750 [00:24<00:15, 28.18it/s]Loading weights:  42%|████▏     | 314/750 [00:24<00:15, 28.54it/s]Loading weights:  42%|████▏     | 317/750 [00:24<00:13, 30.99it/s]Loading weights:  42%|████▏     | 317/750 [00:24<00:14, 30.41it/s]Loading weights:  43%|████▎     | 320/750 [00:24<00:13, 31.13it/s]Loading weights:  43%|████▎     | 321/750 [00:24<00:13, 32.64it/s]Loading weights:  43%|████▎     | 321/750 [00:24<00:16, 26.46it/s]Loading weights:  43%|████▎     | 323/750 [00:24<00:14, 29.38it/s]Loading weights:  43%|████▎     | 324/750 [00:24<00:15, 26.69it/s]Loading weights:  43%|████▎     | 325/750 [00:24<00:15, 26.56it/s]Loading weights:  43%|████▎     | 325/750 [00:24<00:15, 28.08it/s]Loading weights:  44%|████▎     | 327/750 [00:24<00:13, 30.49it/s]Loading weights:  44%|████▍     | 332/750 [00:25<00:12, 32.84it/s]Loading weights:  44%|████▍     | 332/750 [00:25<00:13, 30.68it/s]Loading weights:  44%|████▍     | 332/750 [00:25<00:14, 28.87it/s]Loading weights:  44%|████▍     | 332/750 [00:25<00:14, 28.80it/s]Loading weights:  45%|████▍     | 336/750 [00:25<00:14, 29.02it/s]Loading weights:  45%|████▍     | 336/750 [00:25<00:14, 28.48it/s]Loading weights:  45%|████▍     | 336/750 [00:25<00:15, 27.32it/s]Loading weights:  45%|████▍     | 336/750 [00:25<00:16, 24.73it/s]Loading weights:  45%|████▌     | 340/750 [00:25<00:16, 24.89it/s]Loading weights:  45%|████▌     | 340/750 [00:25<00:15, 25.71it/s]Loading weights:  45%|████▌     | 340/750 [00:25<00:16, 24.13it/s]Loading weights:  45%|████▌     | 340/750 [00:25<00:16, 24.69it/s]Loading weights:  46%|████▌     | 345/750 [00:25<00:14, 27.52it/s]Loading weights:  46%|████▌     | 345/750 [00:25<00:14, 28.74it/s]Loading weights:  46%|████▌     | 345/750 [00:25<00:14, 28.06it/s]Loading weights:  46%|████▌     | 345/750 [00:25<00:16, 24.39it/s]Loading weights:  47%|████▋     | 349/750 [00:25<00:13, 29.65it/s]Loading weights:  47%|████▋     | 350/750 [00:25<00:14, 28.18it/s]Loading weights:  47%|████▋     | 349/750 [00:25<00:14, 27.26it/s]Loading weights:  46%|████▋     | 348/750 [00:25<00:18, 21.89it/s]Loading weights:  47%|████▋     | 352/750 [00:25<00:14, 27.48it/s]Loading weights:  47%|████▋     | 353/750 [00:25<00:14, 28.10it/s]Loading weights:  47%|████▋     | 353/750 [00:25<00:14, 28.07it/s]Loading weights:  47%|████▋     | 355/750 [00:26<00:17, 22.21it/s]Loading weights:  47%|████▋     | 356/750 [00:26<00:17, 22.11it/s]Loading weights:  47%|████▋     | 356/750 [00:26<00:17, 22.23it/s]Loading weights:  47%|████▋     | 353/750 [00:26<00:18, 21.73it/s]Loading weights:  48%|████▊     | 361/750 [00:26<00:13, 29.52it/s]Loading weights:  49%|████▊     | 365/750 [00:26<00:11, 32.13it/s]Loading weights:  49%|████▉     | 367/750 [00:26<00:11, 34.29it/s]Loading weights:  49%|████▊     | 365/750 [00:26<00:13, 28.88it/s]Loading weights:  49%|████▊     | 365/750 [00:26<00:11, 32.17it/s]Loading weights:  49%|████▉     | 369/750 [00:26<00:15, 25.19it/s]Loading weights:  49%|████▉     | 368/750 [00:26<00:15, 24.37it/s]Loading weights:  49%|████▉     | 371/750 [00:26<00:13, 28.68it/s]Loading weights:  49%|████▉     | 369/750 [00:26<00:13, 27.51it/s]Loading weights:  50%|█████     | 376/750 [00:26<00:12, 29.48it/s]Loading weights:  50%|█████     | 376/750 [00:26<00:13, 26.96it/s]Loading weights:  50%|█████     | 376/750 [00:26<00:13, 27.88it/s]Loading weights:  50%|█████     | 376/750 [00:26<00:18, 19.93it/s]Loading weights:  51%|█████     | 379/750 [00:27<00:16, 22.34it/s]Loading weights:  51%|█████     | 379/750 [00:27<00:17, 21.71it/s]Loading weights:  51%|█████     | 379/750 [00:27<00:15, 23.43it/s]Loading weights:  51%|█████     | 384/750 [00:27<00:13, 26.97it/s]Loading weights:  51%|█████▏    | 386/750 [00:27<00:11, 30.62it/s]Loading weights:  52%|█████▏    | 390/750 [00:27<00:17, 20.66it/s]Loading weights:  52%|█████▏    | 388/750 [00:27<00:19, 18.81it/s]Loading weights:  51%|█████▏    | 386/750 [00:27<00:27, 13.19it/s]Loading weights:  52%|█████▏    | 387/750 [00:27<00:26, 13.71it/s]Loading weights:  52%|█████▏    | 393/750 [00:27<00:22, 15.78it/s]Loading weights:  52%|█████▏    | 391/750 [00:27<00:24, 14.36it/s]Loading weights:  54%|█████▍    | 407/750 [00:28<00:12, 27.90it/s]Loading weights:  54%|█████▍    | 407/750 [00:28<00:12, 27.46it/s]Loading weights:  54%|█████▍    | 407/750 [00:28<00:12, 27.02it/s]Loading weights:  53%|█████▎    | 398/750 [00:28<00:19, 17.91it/s]Loading weights:  56%|█████▋    | 422/750 [00:28<00:08, 40.46it/s]Loading weights:  56%|█████▋    | 422/750 [00:28<00:07, 43.28it/s]Loading weights:  57%|█████▋    | 424/750 [00:28<00:09, 33.53it/s]Loading weights:  57%|█████▋    | 425/750 [00:28<00:08, 39.44it/s]Loading weights:  57%|█████▋    | 429/750 [00:28<00:08, 38.09it/s]Loading weights:  57%|█████▋    | 429/750 [00:28<00:08, 36.88it/s]Loading weights:  58%|█████▊    | 437/750 [00:28<00:07, 41.94it/s]Loading weights:  58%|█████▊    | 435/750 [00:28<00:09, 34.26it/s]Loading weights:  58%|█████▊    | 436/750 [00:28<00:08, 37.00it/s]Loading weights:  58%|█████▊    | 437/750 [00:28<00:10, 30.77it/s]Loading weights:  59%|█████▉    | 441/750 [00:28<00:08, 35.01it/s]Loading weights:  59%|█████▉    | 442/750 [00:28<00:07, 38.58it/s]Loading weights:  59%|█████▊    | 440/750 [00:28<00:09, 31.94it/s]Loading weights:  60%|██████    | 452/750 [00:28<00:06, 44.73it/s]Loading weights:  62%|██████▏   | 462/750 [00:29<00:05, 56.55it/s]Loading weights:  61%|██████▏   | 461/750 [00:29<00:04, 58.92it/s]Loading weights:  62%|██████▏   | 462/750 [00:29<00:04, 59.94it/s]Loading weights:  62%|██████▏   | 467/750 [00:29<00:05, 54.36it/s]Loading weights:  63%|██████▎   | 471/750 [00:29<00:05, 55.57it/s]Loading weights:  63%|██████▎   | 471/750 [00:29<00:04, 58.80it/s]Loading weights:  63%|██████▎   | 469/750 [00:29<00:05, 55.26it/s]Loading weights:  63%|██████▎   | 475/750 [00:29<00:06, 42.38it/s]Loading weights:  63%|██████▎   | 476/750 [00:29<00:06, 43.42it/s]Loading weights:  64%|██████▍   | 479/750 [00:29<00:06, 42.50it/s]Loading weights:  64%|██████▍   | 479/750 [00:29<00:06, 43.35it/s]Loading weights:  65%|██████▌   | 489/750 [00:29<00:05, 48.16it/s]Loading weights:  65%|██████▌   | 489/750 [00:29<00:05, 49.23it/s]Loading weights:  65%|██████▌   | 489/750 [00:29<00:05, 49.15it/s]Loading weights:  65%|██████▌   | 489/750 [00:29<00:05, 47.11it/s]Loading weights:  67%|██████▋   | 499/750 [00:29<00:05, 49.54it/s]Loading weights:  67%|██████▋   | 499/750 [00:29<00:04, 50.26it/s]Loading weights:  67%|██████▋   | 499/750 [00:29<00:05, 50.10it/s]Loading weights:  67%|██████▋   | 499/750 [00:29<00:05, 48.64it/s]Loading weights:  68%|██████▊   | 511/750 [00:30<00:04, 59.09it/s]Loading weights:  68%|██████▊   | 511/750 [00:30<00:04, 59.33it/s]Loading weights:  68%|██████▊   | 512/750 [00:30<00:03, 59.60it/s]Loading weights:  68%|██████▊   | 512/750 [00:30<00:03, 60.23it/s]Loading weights:  71%|███████   | 529/750 [00:30<00:02, 79.23it/s]Loading weights:  71%|███████   | 531/750 [00:30<00:02, 85.23it/s]Loading weights:  71%|███████   | 532/750 [00:30<00:02, 86.52it/s]Loading weights:  71%|███████   | 531/750 [00:30<00:02, 82.53it/s]Loading weights:  73%|███████▎  | 547/750 [00:30<00:02, 98.78it/s]Loading weights:  73%|███████▎  | 545/750 [00:30<00:02, 95.72it/s]Loading weights:  73%|███████▎  | 547/750 [00:30<00:02, 96.71it/s]Loading weights:  73%|███████▎  | 547/750 [00:30<00:02, 91.88it/s]Loading weights:  75%|███████▌  | 563/750 [00:30<00:01, 99.50it/s]Loading weights:  75%|███████▌  | 563/750 [00:30<00:01, 96.47it/s]Loading weights:  75%|███████▌  | 563/750 [00:30<00:01, 99.84it/s]Loading weights:  75%|███████▌  | 563/750 [00:30<00:01, 97.28it/s]Loading weights:  77%|███████▋  | 575/750 [00:30<00:01, 97.70it/s]Loading weights:  77%|███████▋  | 575/750 [00:30<00:01, 98.27it/s]Loading weights:  77%|███████▋  | 575/750 [00:30<00:01, 99.47it/s]Loading weights:  77%|███████▋  | 575/750 [00:30<00:01, 98.48it/s]Loading weights:  79%|███████▉  | 594/750 [00:30<00:01, 116.47it/s]Loading weights:  79%|███████▉  | 596/750 [00:30<00:01, 118.98it/s]Loading weights:  79%|███████▉  | 595/750 [00:30<00:01, 115.04it/s]Loading weights:  79%|███████▉  | 595/750 [00:30<00:01, 116.65it/s]Loading weights:  83%|████████▎ | 619/750 [00:30<00:00, 145.13it/s]Loading weights:  82%|████████▏ | 617/750 [00:30<00:00, 134.44it/s]Loading weights:  82%|████████▏ | 617/750 [00:30<00:01, 106.21it/s]Loading weights:  83%|████████▎ | 619/750 [00:30<00:01, 103.90it/s]Loading weights:  84%|████████▍ | 632/750 [00:30<00:00, 118.85it/s]Loading weights:  84%|████████▍ | 633/750 [00:31<00:01, 101.27it/s]Loading weights:  84%|████████▍ | 633/750 [00:31<00:01, 98.72it/s] Loading weights:  85%|████████▍ | 635/750 [00:31<00:01, 88.41it/s] Loading weights:  86%|████████▌ | 644/750 [00:31<00:01, 103.04it/s]Loading weights:  86%|████████▌ | 645/750 [00:31<00:01, 91.64it/s] Loading weights:  86%|████████▌ | 644/750 [00:31<00:01, 100.62it/s]Loading weights:  87%|████████▋ | 655/750 [00:31<00:00, 102.55it/s]Loading weights:  88%|████████▊ | 662/750 [00:31<00:00, 102.71it/s]Loading weights:  88%|████████▊ | 659/750 [00:31<00:00, 106.43it/s]Loading weights:  89%|████████▊ | 664/750 [00:31<00:00, 118.53it/s]Loading weights:  90%|█████████ | 677/750 [00:31<00:00, 120.56it/s]Loading weights:  91%|█████████ | 681/750 [00:31<00:00, 126.99it/s]Loading weights:  91%|█████████ | 682/750 [00:31<00:00, 118.20it/s]Loading weights:  91%|█████████ | 682/750 [00:31<00:00, 126.54it/s]Loading weights:  93%|█████████▎| 700/750 [00:31<00:00, 140.75it/s]Loading weights:  93%|█████████▎| 701/750 [00:31<00:00, 110.50it/s]Loading weights:  93%|█████████▎| 698/750 [00:31<00:00, 109.49it/s]Loading weights:  93%|█████████▎| 700/750 [00:31<00:00, 80.64it/s] Loading weights:  95%|█████████▍| 710/750 [00:31<00:00, 87.81it/s] Loading weights:  95%|█████████▌| 714/750 [00:31<00:00, 89.55it/s] Loading weights:  96%|█████████▌| 717/750 [00:31<00:00, 92.14it/s] Loading weights:  97%|█████████▋| 724/750 [00:31<00:00, 104.77it/s]Loading weights:  97%|█████████▋| 725/750 [00:31<00:00, 92.34it/s]Loading weights:  97%|█████████▋| 725/750 [00:32<00:00, 60.69it/s]Loading weights:  97%|█████████▋| 731/750 [00:32<00:00, 52.07it/s]Loading weights:  98%|█████████▊| 733/750 [00:32<00:00, 49.42it/s]Loading weights:  99%|█████████▊| 739/750 [00:32<00:00, 45.29it/s] Loading weights:  99%|█████████▊| 740/750 [00:32<00:00, 40.07it/s]Loading weights:  98%|█████████▊| 736/750 [00:32<00:00, 34.89it/s]Loading weights:  99%|█████████▉| 741/750 [00:32<00:00, 42.68it/s]Loading weights:  99%|█████████▉| 744/750 [00:33<00:00, 38.07it/s]Loading weights:  99%|█████████▉| 746/750 [00:33<00:00, 34.96it/s]Loading weights: 100%|█████████▉| 749/750 [00:33<00:00, 40.55it/s]Loading weights: 100%|██████████| 750/750 [00:33<00:00, 43.09it/s]Loading weights: 100%|██████████| 750/750 [00:33<00:00, 22.63it/s]Loading weights: 100%|██████████| 750/750 [00:33<00:00, 22.63it/s]Loading weights: 100%|██████████| 750/750 [00:33<00:00, 22.63it/s]
+
+
+Loading weights: 100%|██████████| 750/750 [00:33<00:00, 22.63it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:284: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`

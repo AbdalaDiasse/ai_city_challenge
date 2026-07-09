@@ -1,0 +1,614 @@
+W0705 10:05:29.943000 137887 torch/distributed/run.py:862] 
+W0705 10:05:29.943000 137887 torch/distributed/run.py:862] *****************************************
+W0705 10:05:29.943000 137887 torch/distributed/run.py:862] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0705 10:05:29.943000 137887 torch/distributed/run.py:862] *****************************************
+W0705 10:05:43.009000 137908 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.009000 137909 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.009000 137907 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.026000 137906 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.097000 137907 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.097000 137909 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.097000 137906 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:05:43.098000 137908 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 1/750 [00:03<47:57,  3.84s/it]Loading weights:   0%|          | 2/750 [00:16<1:52:41,  9.04s/it]Loading weights:   1%|          | 4/750 [00:16<42:24,  3.41s/it]  Loading weights:   1%|          | 5/750 [00:16<29:54,  2.41s/it]Loading weights:   1%|▏         | 10/750 [00:17<09:37,  1.28it/s]Loading weights:   0%|          | 1/750 [00:17<3:35:49, 17.29s/it]Loading weights:   0%|          | 1/750 [00:17<3:35:19, 17.25s/it]Loading weights:   0%|          | 1/750 [00:17<3:36:01, 17.31s/it]Loading weights:   1%|          | 6/750 [00:17<26:34,  2.14s/it]  Loading weights:   2%|▏         | 13/750 [00:17<11:47,  1.04it/s] Loading weights:   2%|▏         | 13/750 [00:17<11:51,  1.04it/s] Loading weights:   3%|▎         | 21/750 [00:17<03:18,  3.67it/s]Loading weights:   3%|▎         | 21/750 [00:17<05:32,  2.19it/s]Loading weights:   3%|▎         | 23/750 [00:17<02:54,  4.17it/s]Loading weights:   3%|▎         | 26/750 [00:17<04:47,  2.52it/s]Loading weights:   3%|▎         | 24/750 [00:17<05:18,  2.28it/s]Loading weights:   4%|▍         | 32/750 [00:17<01:34,  7.57it/s]Loading weights:   4%|▍         | 32/750 [00:18<04:03,  2.95it/s]Loading weights:   5%|▍         | 36/750 [00:18<03:30,  3.39it/s]Loading weights:   5%|▍         | 35/750 [00:20<03:09,  3.77it/s]Loading weights:   4%|▍         | 32/750 [00:20<04:24,  2.72it/s]Loading weights:   5%|▌         | 39/750 [00:20<02:25,  4.87it/s]Loading weights:   5%|▍         | 37/750 [00:20<03:53,  3.05it/s]Loading weights:   6%|▌         | 42/750 [00:20<03:20,  3.53it/s]Loading weights:   6%|▌         | 45/750 [00:21<02:10,  5.39it/s]Loading weights:   6%|▌         | 45/750 [00:21<02:56,  3.99it/s]Loading weights:   5%|▌         | 38/750 [00:21<03:42,  3.20it/s]Loading weights:   6%|▌         | 46/750 [00:22<03:35,  3.26it/s]Loading weights:   6%|▋         | 47/750 [00:22<02:29,  4.71it/s]Loading weights:   6%|▌         | 43/750 [00:22<03:13,  3.66it/s]Loading weights:   7%|▋         | 49/750 [00:23<03:06,  3.76it/s]Loading weights:   6%|▋         | 48/750 [00:23<03:34,  3.27it/s]Loading weights:   7%|▋         | 50/750 [00:23<03:10,  3.68it/s]Loading weights:   7%|▋         | 50/750 [00:23<03:20,  3.49it/s]Loading weights:   7%|▋         | 49/750 [00:23<03:52,  3.01it/s]Loading weights:   6%|▌         | 46/750 [00:23<03:36,  3.25it/s]Loading weights:   8%|▊         | 57/750 [00:23<01:58,  5.85it/s]Loading weights:   7%|▋         | 54/750 [00:23<02:14,  5.16it/s]Loading weights:   7%|▋         | 54/750 [00:23<02:38,  4.40it/s]Loading weights:   7%|▋         | 56/750 [00:23<02:39,  4.34it/s]Loading weights:   7%|▋         | 56/750 [00:23<02:19,  4.96it/s]Loading weights:   8%|▊         | 57/750 [00:23<01:45,  6.58it/s]Loading weights:   8%|▊         | 60/750 [00:24<01:47,  6.42it/s]Loading weights:   8%|▊         | 61/750 [00:24<01:48,  6.35it/s]Loading weights:   8%|▊         | 61/750 [00:24<01:33,  7.40it/s]Loading weights:   9%|▊         | 65/750 [00:24<01:35,  7.17it/s]Loading weights:   9%|▊         | 64/750 [00:24<01:29,  7.65it/s]Loading weights:   8%|▊         | 61/750 [00:24<02:17,  5.00it/s]Loading weights:   9%|▉         | 68/750 [00:25<01:46,  6.40it/s]Loading weights:   9%|▊         | 65/750 [00:26<03:22,  3.39it/s]Loading weights:   9%|▉         | 70/750 [00:26<02:56,  3.86it/s]Loading weights:  10%|▉         | 72/750 [00:27<03:38,  3.10it/s]Loading weights:   9%|▊         | 65/750 [00:27<04:08,  2.75it/s]Loading weights:   9%|▉         | 67/750 [00:28<04:10,  2.73it/s]Loading weights:   9%|▉         | 67/750 [00:27<04:35,  2.48it/s]Loading weights:  10%|█         | 76/750 [00:28<02:29,  4.50it/s]Loading weights:  10%|█         | 78/750 [00:28<01:59,  5.63it/s]Loading weights:  10%|█         | 78/750 [00:28<02:02,  5.50it/s]Loading weights:  11%|█         | 79/750 [00:28<01:37,  6.87it/s]Loading weights:  10%|█         | 78/750 [00:28<02:10,  5.15it/s]Loading weights:  11%|█         | 83/750 [00:28<01:19,  8.39it/s]Loading weights:  11%|█         | 83/750 [00:28<01:21,  8.15it/s]Loading weights:  11%|█         | 83/750 [00:28<01:41,  6.58it/s]Loading weights:  11%|█▏        | 86/750 [00:28<01:21,  8.10it/s]Loading weights:  12%|█▏        | 89/750 [00:28<01:01, 10.67it/s]Loading weights:  12%|█▏        | 87/750 [00:28<01:08,  9.65it/s]Loading weights:  12%|█▏        | 90/750 [00:28<01:20,  8.18it/s]Loading weights:  12%|█▏        | 90/750 [00:28<01:02, 10.60it/s]Loading weights:  12%|█▏        | 90/750 [00:28<01:19,  8.29it/s]Loading weights:  12%|█▏        | 92/750 [00:28<01:01, 10.73it/s]Loading weights:  13%|█▎        | 100/750 [00:28<00:47, 13.63it/s]Loading weights:  13%|█▎        | 101/750 [00:28<00:50, 12.79it/s]Loading weights:  13%|█▎        | 100/750 [00:28<00:33, 19.44it/s]Loading weights:  13%|█▎        | 95/750 [00:28<00:55, 11.73it/s]Loading weights:  13%|█▎        | 98/750 [00:29<01:00, 10.79it/s]Loading weights:  14%|█▍        | 105/750 [00:29<00:50, 12.72it/s]Loading weights:  14%|█▍        | 108/750 [00:29<00:33, 19.15it/s]Loading weights:  14%|█▍        | 104/750 [00:29<00:48, 13.39it/s]Loading weights:  14%|█▍        | 106/750 [00:29<01:01, 10.46it/s]Loading weights:  14%|█▍        | 107/750 [00:29<00:47, 13.60it/s]Loading weights:  15%|█▍        | 112/750 [00:29<00:50, 12.64it/s]Loading weights:  15%|█▍        | 112/750 [00:29<00:52, 12.27it/s]Loading weights:  15%|█▌        | 115/750 [00:30<00:52, 12.08it/s]Loading weights:  16%|█▌        | 119/750 [00:30<00:44, 14.06it/s]Loading weights:  15%|█▌        | 116/750 [00:30<00:44, 14.12it/s]Loading weights:  16%|█▌        | 119/750 [00:30<00:49, 12.71it/s]Loading weights:  16%|█▌        | 120/750 [00:30<00:52, 11.95it/s]Loading weights:  16%|█▋        | 122/750 [00:31<01:04,  9.76it/s]Loading weights:  15%|█▍        | 112/750 [00:31<01:25,  7.47it/s]Loading weights:  16%|█▋        | 122/750 [00:31<01:04,  9.77it/s]Loading weights:  16%|█▋        | 122/750 [00:31<00:58, 10.71it/s]Loading weights:  15%|█▌        | 115/750 [00:31<01:16,  8.32it/s]Loading weights:  17%|█▋        | 124/750 [00:31<00:58, 10.65it/s]Loading weights:  17%|█▋        | 125/750 [00:31<00:59, 10.50it/s]Loading weights:  17%|█▋        | 127/750 [00:31<00:51, 12.20it/s]Loading weights:  16%|█▌        | 118/750 [00:31<01:07,  9.30it/s]Loading weights:  17%|█▋        | 127/750 [00:31<00:53, 11.62it/s]Loading weights:  17%|█▋        | 127/750 [00:31<01:02, 10.00it/s]Loading weights:  17%|█▋        | 130/750 [00:31<00:51, 12.08it/s]Loading weights:  18%|█▊        | 134/750 [00:32<00:53, 11.51it/s]Loading weights:  18%|█▊        | 132/750 [00:32<01:11,  8.58it/s]Loading weights:  18%|█▊        | 133/750 [00:32<01:00, 10.26it/s]Loading weights:  18%|█▊        | 135/750 [00:32<01:07,  9.13it/s]Loading weights:  17%|█▋        | 126/750 [00:32<01:28,  7.01it/s]Loading weights:  18%|█▊        | 137/750 [00:32<01:23,  7.37it/s]Loading weights:  18%|█▊        | 136/750 [00:33<01:28,  6.97it/s]Loading weights:  18%|█▊        | 134/750 [00:33<01:56,  5.28it/s]Loading weights:  17%|█▋        | 130/750 [00:33<01:11,  8.68it/s]Loading weights:  18%|█▊        | 133/750 [00:33<01:16,  8.11it/s]Loading weights:  19%|█▉        | 141/750 [00:33<01:24,  7.19it/s]Loading weights:  18%|█▊        | 138/750 [00:33<01:40,  6.08it/s]Loading weights:  19%|█▉        | 142/750 [00:33<01:15,  8.05it/s]Loading weights:  18%|█▊        | 136/750 [00:34<01:27,  7.01it/s]Loading weights:  19%|█▉        | 141/750 [00:34<01:46,  5.72it/s]Loading weights:  19%|█▉        | 142/750 [00:34<02:01,  5.00it/s]Loading weights:  19%|█▉        | 144/750 [00:35<02:16,  4.45it/s]Loading weights:  20%|█▉        | 147/750 [00:35<01:44,  5.77it/s]Loading weights:  18%|█▊        | 138/750 [00:35<02:08,  4.78it/s]Loading weights:  19%|█▉        | 145/750 [00:35<02:11,  4.60it/s]Loading weights:  19%|█▉        | 144/750 [00:35<02:54,  3.46it/s]Loading weights:  20%|█▉        | 149/750 [00:35<01:34,  6.34it/s]Loading weights:  19%|█▉        | 145/750 [00:35<03:10,  3.17it/s]Loading weights:  20%|█▉        | 148/750 [00:35<02:12,  4.55it/s]Loading weights:  20%|█▉        | 149/750 [00:36<02:38,  3.80it/s]Loading weights:  20%|█▉        | 147/750 [00:36<03:05,  3.25it/s]Loading weights:  20%|█▉        | 147/750 [00:36<01:43,  5.84it/s]Loading weights:  20%|██        | 153/750 [00:36<01:53,  5.25it/s]Loading weights:  20%|█▉        | 148/750 [00:36<01:42,  5.87it/s]Loading weights:  21%|██        | 158/750 [00:36<01:01,  9.65it/s]Loading weights:  21%|██        | 155/750 [00:36<01:40,  5.93it/s]Loading weights:  21%|██        | 158/750 [00:36<01:11,  8.26it/s]Loading weights:  21%|██▏       | 161/750 [00:36<00:52, 11.29it/s]Loading weights:  21%|██▏       | 160/750 [00:36<00:45, 12.84it/s]Loading weights:  22%|██▏       | 166/750 [00:36<00:35, 16.60it/s]Loading weights:  21%|██▏       | 160/750 [00:36<01:05,  9.03it/s]Loading weights:  22%|██▏       | 164/750 [00:37<01:25,  6.84it/s]Loading weights:  23%|██▎       | 169/750 [00:37<01:03,  9.18it/s]Loading weights:  22%|██▏       | 163/750 [00:38<02:19,  4.21it/s]Loading weights:  22%|██▏       | 166/750 [00:38<01:50,  5.28it/s]Loading weights:  22%|██▏       | 166/750 [00:38<01:49,  5.35it/s]Loading weights:  23%|██▎       | 171/750 [00:38<01:34,  6.13it/s]Loading weights:  22%|██▏       | 167/750 [00:39<02:04,  4.70it/s]Loading weights:  22%|██▏       | 168/750 [00:39<02:05,  4.64it/s]Loading weights:  23%|██▎       | 169/750 [00:39<02:00,  4.83it/s]Loading weights:  23%|██▎       | 171/750 [00:39<01:43,  5.58it/s]Loading weights:  23%|██▎       | 170/750 [00:41<03:20,  2.90it/s]Loading weights:  23%|██▎       | 174/750 [00:40<02:50,  3.38it/s]Loading weights:  24%|██▍       | 180/750 [00:41<01:36,  5.91it/s]Loading weights:  23%|██▎       | 176/750 [00:41<03:11,  3.00it/s]Loading weights:  24%|██▍       | 181/750 [00:42<02:11,  4.33it/s]Loading weights:  23%|██▎       | 175/750 [00:42<02:44,  3.50it/s]Loading weights:  24%|██▍       | 180/750 [00:42<01:51,  5.13it/s]Loading weights:  24%|██▍       | 181/750 [00:42<01:55,  4.92it/s]Loading weights:  24%|██▍       | 182/750 [00:42<02:14,  4.21it/s]Loading weights:  24%|██▎       | 177/750 [00:42<03:11,  2.99it/s]Loading weights:  24%|██▎       | 178/750 [00:42<02:59,  3.18it/s]Loading weights:  25%|██▌       | 188/750 [00:43<01:42,  5.47it/s]Loading weights:  25%|██▌       | 188/750 [00:43<02:00,  4.65it/s]Loading weights:  24%|██▍       | 180/750 [00:44<04:55,  1.93it/s]Loading weights:  25%|██▌       | 189/750 [00:44<02:23,  3.90it/s]Loading weights:  25%|██▌       | 191/750 [00:44<02:43,  3.43it/s]Loading weights:  24%|██▎       | 178/750 [00:44<03:59,  2.39it/s]Loading weights:  24%|██▍       | 180/750 [00:45<03:35,  2.64it/s]Loading weights:  24%|██▍       | 181/750 [00:45<05:05,  1.86it/s]Loading weights:  25%|██▌       | 191/750 [00:45<02:38,  3.53it/s]Loading weights:  26%|██▌       | 192/750 [00:45<02:56,  3.16it/s]Loading weights:  24%|██▍       | 182/750 [00:45<04:27,  2.12it/s]Loading weights:  25%|██▍       | 185/750 [00:45<03:10,  2.97it/s]Loading weights:  25%|██▌       | 188/750 [00:45<02:16,  4.12it/s]Loading weights:  27%|██▋       | 200/750 [00:45<01:39,  5.52it/s]Loading weights:  27%|██▋       | 199/750 [00:46<01:35,  5.79it/s]Loading weights:  27%|██▋       | 200/750 [00:46<02:00,  4.55it/s]Loading weights:  25%|██▌       | 188/750 [00:46<02:51,  3.28it/s]Loading weights:  25%|██▌       | 189/750 [00:46<02:48,  3.32it/s]Loading weights:  27%|██▋       | 202/750 [00:47<02:09,  4.23it/s]Loading weights:  25%|██▌       | 190/750 [00:47<02:38,  3.53it/s]Loading weights:  27%|██▋       | 204/750 [00:47<02:04,  4.38it/s]Loading weights:  28%|██▊       | 207/750 [00:47<00:42, 12.86it/s]Loading weights:  27%|██▋       | 204/750 [00:48<02:20,  3.87it/s]Loading weights:  28%|██▊       | 209/750 [00:48<01:00,  9.00it/s]Loading weights:  25%|██▌       | 191/750 [00:48<03:24,  2.74it/s]Loading weights:  28%|██▊       | 208/750 [00:48<01:41,  5.31it/s]Loading weights:  28%|██▊       | 208/750 [00:48<02:00,  4.52it/s]Loading weights:  26%|██▌       | 196/750 [00:48<02:05,  4.41it/s]Loading weights:  29%|██▊       | 215/750 [00:48<00:43, 12.39it/s]Loading weights:  27%|██▋       | 200/750 [00:48<01:32,  5.95it/s]Loading weights:  29%|██▉       | 218/750 [00:48<00:52, 10.13it/s]Loading weights:  29%|██▉       | 218/750 [00:48<00:41, 12.78it/s]Loading weights:  29%|██▉       | 218/750 [00:48<00:59,  8.90it/s]Loading weights:  27%|██▋       | 203/750 [00:48<01:25,  6.42it/s]Loading weights:  29%|██▉       | 221/750 [00:48<00:58,  9.10it/s]Loading weights:  29%|██▉       | 221/750 [00:48<00:56,  9.44it/s]Loading weights:  30%|███       | 226/750 [00:48<00:42, 12.23it/s]Loading weights:  30%|███       | 225/750 [00:48<00:24, 21.60it/s]Loading weights:  30%|███       | 226/750 [00:48<00:41, 12.48it/s]Loading weights:  31%|███       | 232/750 [00:49<00:30, 16.76it/s]Loading weights:  29%|██▉       | 221/750 [00:49<01:00,  8.68it/s]Loading weights:  31%|███       | 229/750 [00:49<00:44, 11.77it/s]Loading weights:  31%|███▏      | 236/750 [00:49<00:35, 14.52it/s]Loading weights:  32%|███▏      | 239/750 [00:49<00:33, 15.40it/s]Loading weights:  31%|███       | 232/750 [00:49<00:44, 11.55it/s]Loading weights:  31%|███       | 233/750 [00:49<00:28, 17.85it/s]Loading weights:  32%|███▏      | 239/750 [00:49<00:27, 18.54it/s]Loading weights:  32%|███▏      | 239/750 [00:49<00:24, 21.00it/s]Loading weights:  33%|███▎      | 245/750 [00:49<00:22, 22.55it/s]Loading weights:  32%|███▏      | 243/750 [00:50<00:48, 10.49it/s]Loading weights:  31%|███       | 234/750 [00:50<01:13,  6.98it/s]Loading weights:  33%|███▎      | 245/750 [00:50<00:53,  9.52it/s]Loading weights:  32%|███▏      | 242/750 [00:50<00:45, 11.19it/s]Loading weights:  31%|███▏      | 236/750 [00:50<01:09,  7.35it/s]Loading weights:  33%|███▎      | 247/750 [00:50<00:51,  9.71it/s]Loading weights:  32%|███▏      | 238/750 [00:50<01:02,  8.14it/s]Loading weights:  33%|███▎      | 244/750 [00:50<00:44, 11.35it/s]Loading weights:  33%|███▎      | 250/750 [00:50<00:40, 12.30it/s]Loading weights:  32%|███▏      | 240/750 [00:50<00:59,  8.60it/s]Loading weights:  34%|███▍      | 254/750 [00:50<00:32, 15.23it/s]Loading weights:  33%|███▎      | 248/750 [00:50<00:40, 12.53it/s]Loading weights:  34%|███▍      | 254/750 [00:51<00:49, 10.01it/s]Loading weights:  33%|███▎      | 251/750 [00:52<01:11,  6.93it/s]Loading weights:  34%|███▍      | 257/750 [00:52<00:55,  8.83it/s]Loading weights:  34%|███▎      | 253/750 [00:52<01:25,  5.81it/s]Loading weights:  34%|███▍      | 255/750 [00:52<01:02,  7.88it/s]Loading weights:  34%|███▍      | 257/750 [00:52<01:39,  4.94it/s]Loading weights:  35%|███▍      | 259/750 [00:52<01:16,  6.43it/s]Loading weights:  34%|███▍      | 255/750 [00:52<01:17,  6.37it/s]Loading weights:  34%|███▍      | 257/750 [00:53<01:44,  4.70it/s]Loading weights:  34%|███▍      | 258/750 [00:53<01:17,  6.36it/s]Loading weights:  35%|███▍      | 259/750 [00:53<02:02,  4.02it/s]Loading weights:  35%|███▍      | 262/750 [00:53<01:31,  5.31it/s]Loading weights:  35%|███▌      | 265/750 [00:54<01:31,  5.31it/s]Loading weights:  35%|███▌      | 265/750 [00:54<01:12,  6.67it/s]Loading weights:  35%|███▍      | 262/750 [00:54<01:20,  6.06it/s]Loading weights:  36%|███▌      | 269/750 [00:54<01:09,  6.94it/s]Loading weights:  35%|███▌      | 264/750 [00:54<02:00,  4.03it/s]Loading weights:  35%|███▌      | 266/750 [00:54<01:24,  5.71it/s]Loading weights:  36%|███▋      | 273/750 [00:54<01:01,  7.75it/s]Loading weights:  35%|███▌      | 265/750 [00:54<01:54,  4.22it/s]Loading weights:  36%|███▌      | 269/750 [00:55<01:15,  6.41it/s]Loading weights:  36%|███▌      | 270/750 [00:56<01:24,  5.65it/s]Loading weights:  37%|███▋      | 275/750 [00:56<01:37,  4.89it/s]Loading weights:  36%|███▋      | 273/750 [00:56<01:20,  5.94it/s]Loading weights:  36%|███▋      | 273/750 [00:56<01:30,  5.26it/s]Loading weights:  37%|███▋      | 279/750 [00:56<01:17,  6.08it/s]Loading weights:  37%|███▋      | 275/750 [00:56<01:30,  5.22it/s]Loading weights:  37%|███▋      | 274/750 [00:56<01:30,  5.27it/s]Loading weights:  37%|███▋      | 281/750 [00:56<01:16,  6.15it/s]Loading weights:  37%|███▋      | 276/750 [00:56<01:22,  5.71it/s]Loading weights:  37%|███▋      | 276/750 [00:56<01:33,  5.06it/s]Loading weights:  38%|███▊      | 284/750 [00:57<01:16,  6.10it/s]Loading weights:  36%|███▋      | 273/750 [00:57<01:42,  4.66it/s]Loading weights:  37%|███▋      | 280/750 [00:57<01:05,  7.19it/s]Loading weights:  37%|███▋      | 277/750 [00:57<01:48,  4.37it/s]Loading weights:  37%|███▋      | 277/750 [00:57<02:03,  3.82it/s]Loading weights:  38%|███▊      | 285/750 [00:57<01:16,  6.08it/s]Loading weights:  38%|███▊      | 287/750 [00:57<00:41, 11.10it/s]Loading weights:  37%|███▋      | 280/750 [00:57<01:23,  5.62it/s]Loading weights:  39%|███▉      | 292/750 [00:57<00:41, 11.06it/s]Loading weights:  39%|███▊      | 290/750 [00:57<00:56,  8.08it/s]Loading weights:  39%|███▉      | 291/750 [00:58<01:25,  5.35it/s]Loading weights:  39%|███▉      | 296/750 [00:59<00:53,  8.52it/s]Loading weights:  39%|███▊      | 290/750 [00:59<01:25,  5.37it/s]Loading weights:  39%|███▉      | 295/750 [00:59<01:03,  7.15it/s]Loading weights:  40%|███▉      | 298/750 [00:59<00:58,  7.77it/s]Loading weights:  40%|███▉      | 298/750 [00:59<01:03,  7.16it/s]Loading weights:  39%|███▉      | 292/750 [00:59<01:27,  5.26it/s]Loading weights:  40%|████      | 302/750 [00:59<00:56,  7.87it/s]Loading weights:  40%|████      | 301/750 [00:59<01:01,  7.31it/s]Loading weights:  39%|███▉      | 296/750 [00:59<01:12,  6.30it/s]Loading weights:  41%|████      | 306/750 [00:59<00:42, 10.43it/s]Loading weights:  40%|███▉      | 299/750 [01:00<00:59,  7.59it/s]Loading weights:  41%|████▏     | 310/750 [01:00<00:45,  9.68it/s]Loading weights:  40%|████      | 303/750 [01:00<00:57,  7.77it/s]Loading weights:  41%|████      | 309/750 [01:00<00:39, 11.26it/s]Loading weights:  42%|████▏     | 314/750 [01:00<00:37, 11.52it/s]Loading weights:  42%|████▏     | 317/750 [01:00<00:21, 20.60it/s]Loading weights:  42%|████▏     | 318/750 [01:00<00:31, 13.74it/s]Loading weights:  42%|████▏     | 317/750 [01:00<00:40, 10.81it/s]Loading weights:  41%|████      | 309/750 [01:00<00:47,  9.25it/s]Loading weights:  43%|████▎     | 320/750 [01:00<00:31, 13.45it/s]Loading weights:  43%|████▎     | 320/750 [01:00<00:36, 11.70it/s]Loading weights:  43%|████▎     | 321/750 [01:01<00:33, 12.68it/s]Loading weights:  43%|████▎     | 322/750 [01:01<00:41, 10.40it/s]Loading weights:  43%|████▎     | 322/750 [01:01<00:51,  8.26it/s]Loading weights:  41%|████▏     | 311/750 [01:01<01:07,  6.50it/s]Loading weights:  43%|████▎     | 324/750 [01:01<00:32, 13.16it/s]Loading weights:  44%|████▎     | 327/750 [01:01<00:28, 14.66it/s]Loading weights:  43%|████▎     | 324/750 [01:01<00:44,  9.56it/s]Loading weights:  42%|████▏     | 312/750 [01:01<01:06,  6.58it/s]Loading weights:  44%|████▍     | 330/750 [01:01<00:40, 10.45it/s]Loading weights:  43%|████▎     | 326/750 [01:02<00:59,  7.09it/s]Loading weights:  43%|████▎     | 324/750 [01:02<01:12,  5.87it/s]Loading weights:  42%|████▏     | 313/750 [01:02<01:41,  4.29it/s]Loading weights:  44%|████▍     | 332/750 [01:02<00:41, 10.19it/s]Loading weights:  45%|████▍     | 335/750 [01:02<00:26, 15.89it/s]Loading weights:  43%|████▎     | 325/750 [01:02<01:39,  4.25it/s]Loading weights:  44%|████▍     | 331/750 [01:02<01:04,  6.50it/s]Loading weights:  45%|████▍     | 337/750 [01:02<00:27, 14.86it/s]Loading weights:  45%|████▌     | 339/750 [01:02<00:31, 12.95it/s]Loading weights:  45%|████▍     | 335/750 [01:03<01:00,  6.84it/s]Loading weights:  46%|████▌     | 343/750 [01:03<00:25, 15.73it/s]Loading weights:  45%|████▌     | 340/750 [01:03<00:43,  9.35it/s]Loading weights:  45%|████▍     | 337/750 [01:03<01:03,  6.49it/s]Loading weights:  46%|████▌     | 342/750 [01:03<00:38, 10.58it/s]Loading weights:  46%|████▌     | 345/750 [01:03<00:28, 14.34it/s]Loading weights:  46%|████▌     | 345/750 [01:03<00:33, 12.00it/s]Loading weights:  46%|████▋     | 347/750 [01:03<00:31, 12.65it/s]Loading weights:  46%|████▋     | 348/750 [01:03<00:31, 12.95it/s]Loading weights:  45%|████▌     | 339/750 [01:03<01:02,  6.57it/s]Loading weights:  47%|████▋     | 350/750 [01:03<00:29, 13.76it/s]Loading weights:  46%|████▋     | 347/750 [01:03<00:36, 10.95it/s]Loading weights:  47%|████▋     | 356/750 [01:04<00:22, 17.67it/s]Loading weights:  46%|████▌     | 342/750 [01:04<00:57,  7.09it/s]Loading weights:  47%|████▋     | 351/750 [01:04<00:34, 11.45it/s]Loading weights:  48%|████▊     | 358/750 [01:04<00:24, 15.92it/s]Loading weights:  47%|████▋     | 356/750 [01:04<00:29, 13.51it/s]Loading weights:  48%|████▊     | 358/750 [01:04<00:20, 19.31it/s]Loading weights:  48%|████▊     | 361/750 [01:04<00:22, 17.38it/s]Loading weights:  48%|████▊     | 362/750 [01:04<00:25, 15.50it/s]Loading weights:  49%|████▊     | 365/750 [01:04<00:22, 17.41it/s]Loading weights:  48%|████▊     | 362/750 [01:04<00:32, 11.88it/s]Loading weights:  49%|████▉     | 367/750 [01:05<00:28, 13.59it/s]Loading weights:  49%|████▉     | 367/750 [01:05<00:32, 11.85it/s]Loading weights:  48%|████▊     | 362/750 [01:05<00:31, 12.40it/s]Loading weights:  49%|████▊     | 364/750 [01:05<00:35, 10.94it/s]Loading weights:  50%|████▉     | 372/750 [01:05<00:26, 14.37it/s]Loading weights:  49%|████▉     | 367/750 [01:05<00:26, 14.69it/s]Loading weights:  49%|████▉     | 369/750 [01:05<00:44,  8.58it/s]Loading weights:  49%|████▉     | 366/750 [01:05<00:43,  8.91it/s]Loading weights:  49%|████▉     | 370/750 [01:05<00:32, 11.80it/s]Loading weights:  50%|█████     | 376/750 [01:05<00:25, 14.61it/s]Loading weights:  50%|█████     | 378/750 [01:05<00:26, 14.04it/s]Loading weights:  50%|████▉     | 374/750 [01:06<00:45,  8.35it/s]Loading weights:  49%|████▉     | 368/750 [01:06<00:44,  8.63it/s]Loading weights:  51%|█████     | 384/750 [01:06<00:32, 11.34it/s]Loading weights:  51%|█████▏    | 386/750 [01:08<00:59,  6.13it/s]Loading weights:  51%|█████     | 381/750 [01:08<01:26,  4.25it/s]Loading weights:  51%|█████▏    | 386/750 [01:08<01:20,  4.50it/s]Loading weights:  51%|█████     | 380/750 [01:08<01:08,  5.43it/s]Loading weights:  53%|█████▎    | 395/750 [01:08<00:38,  9.21it/s]Loading weights:  53%|█████▎    | 397/750 [01:08<00:35,  9.93it/s]Loading weights:  51%|█████▏    | 386/750 [01:08<00:49,  7.35it/s]Loading weights:  53%|█████▎    | 394/750 [01:08<00:47,  7.46it/s]Loading weights:  53%|█████▎    | 400/750 [01:09<00:31, 11.15it/s]Loading weights:  53%|█████▎    | 401/750 [01:08<00:30, 11.35it/s]Loading weights:  53%|█████▎    | 394/750 [01:09<00:33, 10.76it/s]Loading weights:  55%|█████▌    | 415/750 [01:09<00:18, 18.25it/s]Loading weights:  57%|█████▋    | 428/750 [01:09<00:11, 27.99it/s]Loading weights:  57%|█████▋    | 427/750 [01:09<00:11, 27.41it/s]Loading weights:  57%|█████▋    | 430/750 [01:09<00:11, 27.50it/s]Loading weights:  57%|█████▋    | 424/750 [01:09<00:11, 28.79it/s]Loading weights:  58%|█████▊    | 437/750 [01:09<00:12, 25.47it/s]Loading weights:  58%|█████▊    | 436/750 [01:09<00:12, 24.97it/s]Loading weights:  58%|█████▊    | 436/750 [01:09<00:10, 28.59it/s]Loading weights:  59%|█████▊    | 439/750 [01:10<00:15, 19.79it/s]Loading weights:  59%|█████▉    | 443/750 [01:10<00:14, 21.72it/s]Loading weights:  59%|█████▉    | 443/750 [01:10<00:15, 19.50it/s]Loading weights:  59%|█████▉    | 446/750 [01:10<00:14, 20.64it/s]Loading weights:  59%|█████▉    | 444/750 [01:10<00:16, 18.67it/s]Loading weights:  60%|██████    | 452/750 [01:10<00:11, 26.30it/s]Loading weights:  61%|██████▏   | 460/750 [01:10<00:09, 29.85it/s]Loading weights:  62%|██████▏   | 464/750 [01:10<00:09, 31.32it/s]Loading weights:  61%|██████    | 459/750 [01:10<00:10, 27.85it/s]Loading weights:  63%|██████▎   | 469/750 [01:10<00:07, 39.74it/s]Loading weights:  64%|██████▎   | 478/750 [01:10<00:06, 40.98it/s]Loading weights:  65%|██████▍   | 487/750 [01:10<00:05, 47.54it/s]Loading weights:  65%|██████▌   | 489/750 [01:10<00:04, 57.64it/s]Loading weights:  65%|██████▌   | 489/750 [01:10<00:05, 48.87it/s]Loading weights:  67%|██████▋   | 503/750 [01:10<00:04, 56.56it/s]Loading weights:  67%|██████▋   | 505/750 [01:10<00:03, 63.24it/s]Loading weights:  67%|██████▋   | 505/750 [01:10<00:04, 58.88it/s]Loading weights:  67%|██████▋   | 501/750 [01:10<00:04, 61.01it/s]Loading weights:  69%|██████▉   | 517/750 [01:11<00:04, 54.78it/s]Loading weights:  69%|██████▉   | 519/750 [01:11<00:03, 62.97it/s]Loading weights:  70%|██████▉   | 524/750 [01:11<00:03, 64.67it/s]Loading weights:  69%|██████▊   | 515/750 [01:11<00:04, 51.91it/s]Loading weights:  70%|███████   | 527/750 [01:11<00:05, 40.38it/s]Loading weights:  70%|███████   | 528/750 [01:11<00:05, 41.47it/s]Loading weights:  70%|███████   | 527/750 [01:11<00:05, 39.17it/s]Loading weights:  71%|███████   | 534/750 [01:12<00:06, 31.26it/s]Loading weights:  71%|███████▏  | 535/750 [01:12<00:06, 31.57it/s]Loading weights:  71%|███████   | 534/750 [01:12<00:06, 31.13it/s]Loading weights:  71%|███████   | 534/750 [01:12<00:08, 26.31it/s]Loading weights:  72%|███████▏  | 540/750 [01:12<00:09, 22.71it/s]Loading weights:  72%|███████▏  | 539/750 [01:12<00:09, 21.67it/s]Loading weights:  72%|███████▏  | 541/750 [01:12<00:09, 21.88it/s]Loading weights:  72%|███████▏  | 541/750 [01:12<00:08, 25.74it/s]Loading weights:  73%|███████▎  | 546/750 [01:12<00:07, 25.89it/s]Loading weights:  73%|███████▎  | 547/750 [01:12<00:07, 26.74it/s]Loading weights:  73%|███████▎  | 549/750 [01:12<00:07, 26.87it/s]Loading weights:  74%|███████▍  | 558/750 [01:12<00:05, 35.69it/s]Loading weights:  75%|███████▍  | 559/750 [01:12<00:05, 37.16it/s]Loading weights:  75%|███████▍  | 559/750 [01:12<00:05, 37.00it/s]Loading weights:  76%|███████▌  | 570/750 [01:12<00:03, 47.10it/s]Loading weights:  76%|███████▋  | 573/750 [01:12<00:03, 46.53it/s]Loading weights:  76%|███████▌  | 567/750 [01:13<00:04, 39.87it/s]Loading weights:  76%|███████▌  | 569/750 [01:12<00:04, 42.16it/s]Loading weights:  77%|███████▋  | 580/750 [01:13<00:03, 51.60it/s]Loading weights:  80%|███████▉  | 597/750 [01:13<00:02, 69.88it/s]Loading weights:  81%|████████  | 606/750 [01:13<00:01, 82.83it/s]Loading weights:  81%|████████  | 608/750 [01:13<00:01, 89.79it/s]Loading weights:  81%|████████  | 606/750 [01:13<00:01, 87.35it/s]Loading weights:  81%|████████▏ | 611/750 [01:13<00:01, 70.98it/s]Loading weights:  83%|████████▎ | 620/750 [01:13<00:01, 94.11it/s]Loading weights:  83%|████████▎ | 623/750 [01:13<00:01, 89.95it/s]Loading weights:  83%|████████▎ | 620/750 [01:13<00:01, 82.57it/s]Loading weights:  86%|████████▋ | 647/750 [01:13<00:00, 115.42it/s]Loading weights:  87%|████████▋ | 654/750 [01:13<00:00, 130.45it/s]Loading weights:  88%|████████▊ | 657/750 [01:13<00:00, 126.49it/s]Loading weights:  89%|████████▉ | 666/750 [01:13<00:00, 124.88it/s]Loading weights:  88%|████████▊ | 662/750 [01:13<00:00, 124.16it/s]Loading weights:  89%|████████▉ | 670/750 [01:13<00:00, 136.22it/s]Loading weights:  90%|████████▉ | 673/750 [01:13<00:00, 125.43it/s]Loading weights:  91%|█████████ | 684/750 [01:13<00:00, 136.19it/s]Loading weights:  91%|█████████▏| 686/750 [01:13<00:00, 134.19it/s]Loading weights:  91%|█████████ | 684/750 [01:13<00:00, 119.84it/s]Loading weights:  93%|█████████▎| 701/750 [01:13<00:00, 137.74it/s]Loading weights:  93%|█████████▎| 701/750 [01:13<00:00, 134.90it/s]Loading weights:  93%|█████████▎| 700/750 [01:13<00:00, 122.16it/s]Loading weights:  94%|█████████▎| 702/750 [01:13<00:00, 113.84it/s]Loading weights:  96%|█████████▌| 718/750 [01:13<00:00, 143.82it/s]Loading weights:  96%|█████████▌| 719/750 [01:13<00:00, 136.71it/s]Loading weights:  95%|█████████▌| 716/750 [01:13<00:00, 137.84it/s]Loading weights:  97%|█████████▋| 724/750 [01:14<00:00, 63.49it/s] Loading weights:  97%|█████████▋| 731/750 [01:14<00:00, 45.39it/s] Loading weights:  98%|█████████▊| 735/750 [01:15<00:00, 27.84it/s]Loading weights:  98%|█████████▊| 736/750 [01:15<00:00, 27.37it/s] Loading weights:  98%|█████████▊| 734/750 [01:15<00:00, 28.77it/s] Loading weights:  99%|█████████▉| 742/750 [01:16<00:00, 20.91it/s]Loading weights: 100%|██████████| 750/750 [01:16<00:00, 20.46it/s]Loading weights: 100%|██████████| 750/750 [01:16<00:00,  9.75it/s]
+Loading weights:  99%|█████████▉| 746/750 [01:16<00:00, 21.24it/s]Loading weights: 100%|██████████| 750/750 [01:16<00:00,  9.76it/s]
+Loading weights:  99%|█████████▉| 743/750 [01:16<00:00, 18.49it/s]Loading weights: 100%|██████████| 750/750 [01:16<00:00,  9.75it/s]
+Loading weights: 100%|█████████▉| 748/750 [01:16<00:00, 20.14it/s]Loading weights: 100%|██████████| 750/750 [01:16<00:00,  9.75it/s]
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+[accelerate.utils.other|WARNING][RANK 0] Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 3 | Total steps = 7,251
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 3 | Total steps = 7,251
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 3 | Total steps = 7,251
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 3 | Total steps = 7,251
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+  0%|          | 0/7251 [00:00<?, ?it/s]Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+[rank1]:     main()
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 188, in main
+[rank1]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/trainer.py", line 616, in _train_with_reset
+[rank1]:     return _orig_train(*train_args, **train_kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 101, in wrapper
+[rank1]:     output = f(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank1]:     return inner_training_loop(
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank1]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank1]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 1347, in training_step
+[rank1]:     return super().training_step(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "<string>", line 40, in _unsloth_training_step
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 1336, in compute_loss
+[rank1]:     outputs = super().compute_loss(
+[rank1]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/_utils.py", line 2514, in _unsloth_pre_compute_loss
+[rank1]:     outputs = self._old_compute_loss(model, inputs, *args, **kwargs)
+[rank1]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "<string>", line 41, in compute_loss
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/parallel/distributed.py", line 1832, in forward
+[rank1]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank1]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/parallel/distributed.py", line 1657, in _run_ddp_forward
+[rank1]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/utils/operations.py", line 943, in forward
+[rank1]:     return model_forward(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/utils/operations.py", line 931, in __call__
+[rank1]:     return convert_to_fp32(self.model_forward(*args, **kwargs))
+[rank1]:                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+[rank1]:     return func(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/peft/peft_model.py", line 1993, in forward
+[rank1]:     return self.base_model(
+[rank1]:            ^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1884, in _call_impl
+[rank1]:     return inner()
+[rank1]:            ^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1832, in inner
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/peft/tuners/tuners_utils.py", line 330, in forward
+[rank1]:     return self.model.forward(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank1]:     output = module._old_forward(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 961, in forward
+[rank1]:     return Qwen3VLForConditionalGeneration_forward(self, input_ids=input_ids, attention_mask=attention_mask, position_ids=position_ids, past_key_values=past_key_values, inputs_embeds=inputs_embeds, labels=labels, pixel_values=pixel_values, pixel_values_videos=pixel_values_videos, image_grid_thw=image_grid_thw, video_grid_thw=video_grid_thw, mm_token_type_ids=mm_token_type_ids, logits_to_keep=logits_to_keep, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/_dynamo/external_utils.py", line 226, in nonrecursive_disable_wrapper
+[rank1]:     return fn(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank1]:     output = func(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 742, in Qwen3VLForConditionalGeneration_forward
+[rank1]:     outputs = self.model(
+[rank1]:               ^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank1]:     output = module._old_forward(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank1]:     output = func(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1300, in forward
+[rank1]:     video_outputs: BaseModelOutputWithDeepstackFeatures = self.get_video_features(
+[rank1]:                                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank1]:     output = func(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1139, in get_video_features
+[rank1]:     return self.get_image_features(pixel_values_videos, video_grid_thw, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank1]:     output = func(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1156, in get_image_features
+[rank1]:     vision_output: BaseModelOutputWithDeepstackFeatures = self.visual(
+[rank1]:                                                           ^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank1]:     output = module._old_forward(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 952, in wrapper
+[rank1]:     output = func(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 248, in wrapper
+[rank1]:     outputs = func(self, *args, **kwargs)
+[rank1]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 780, in forward
+[rank1]:     hidden_states = self.patch_embed(hidden_states)
+[rank1]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank1]:     output = module._old_forward(*args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 220, in forward
+[rank1]:     return Qwen3VLVisionPatchEmbed_forward(self, hidden_states=hidden_states)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 1058, in compile_wrapper
+[rank1]:     raise e.with_traceback(None) from e.__cause__  # User compiler error
+[rank1]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: torch._dynamo.exc.Unsupported: Skip calling `torch.compiler.disable()`d function
+[rank1]:   Explanation: Skip calling function `<function AlignDevicesHook.pre_forward at 0x147ae04347c0>` since it was wrapped with `torch.compiler.disable` (reason: None)
+[rank1]:   Hint: Remove the `torch.compiler.disable` call
+
+[rank1]:   Developer debug context: <function AlignDevicesHook.pre_forward at 0x147ae04347c0>
+
+[rank1]:  For more details about this graph break, please visit: https://meta-pytorch.github.io/compile-graph-break-site/gb/gb0098.html
+
+[rank1]: from user code:
+[rank1]:    File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 205, in Qwen3VLVisionPatchEmbed_forward
+[rank1]:     hidden_states = self.proj(hidden_states.to(dtype=target_dtype)).view(-1, self.embed_dim)
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 187, in new_forward
+[rank1]:     args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 50, in wrapper
+[rank1]:     return wrapper._compiled_fn(*args, **kwargs)
+
+[rank1]: Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+[rank3]:     main()
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 188, in main
+[rank3]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/trainer.py", line 616, in _train_with_reset
+[rank3]:     return _orig_train(*train_args, **train_kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 101, in wrapper
+[rank3]:     output = f(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank3]:     return inner_training_loop(
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank3]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank3]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 1347, in training_step
+[rank3]:     return super().training_step(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "<string>", line 40, in _unsloth_training_step
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 1336, in compute_loss
+[rank3]:     outputs = super().compute_loss(
+[rank3]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/_utils.py", line 2514, in _unsloth_pre_compute_loss
+[rank3]:     outputs = self._old_compute_loss(model, inputs, *args, **kwargs)
+[rank3]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "<string>", line 41, in compute_loss
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/parallel/distributed.py", line 1832, in forward
+[rank3]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank3]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/parallel/distributed.py", line 1657, in _run_ddp_forward
+[rank3]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/utils/operations.py", line 943, in forward
+[rank3]:     return model_forward(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/utils/operations.py", line 931, in __call__
+[rank3]:     return convert_to_fp32(self.model_forward(*args, **kwargs))
+[rank3]:                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+[rank3]:     return func(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/peft/peft_model.py", line 1993, in forward
+[rank3]:     return self.base_model(
+[rank3]:            ^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1884, in _call_impl
+[rank3]:     return inner()
+[rank3]:            ^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1832, in inner
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/peft/tuners/tuners_utils.py", line 330, in forward
+[rank3]:     return self.model.forward(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank3]:     output = module._old_forward(*args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 961, in forward
+[rank3]:     return Qwen3VLForConditionalGeneration_forward(self, input_ids=input_ids, attention_mask=attention_mask, position_ids=position_ids, past_key_values=past_key_values, inputs_embeds=inputs_embeds, labels=labels, pixel_values=pixel_values, pixel_values_videos=pixel_values_videos, image_grid_thw=image_grid_thw, video_grid_thw=video_grid_thw, mm_token_type_ids=mm_token_type_ids, logits_to_keep=logits_to_keep, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/_dynamo/external_utils.py", line 226, in nonrecursive_disable_wrapper
+[rank3]:     return fn(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank3]:     output = func(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 742, in Qwen3VLForConditionalGeneration_forward
+[rank3]:     outputs = self.model(
+[rank3]:               ^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank3]:     output = module._old_forward(*args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank3]:     output = func(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1300, in forward
+[rank3]:     video_outputs: BaseModelOutputWithDeepstackFeatures = self.get_video_features(
+[rank3]:                                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank3]:     output = func(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1139, in get_video_features
+[rank3]:     return self.get_image_features(pixel_values_videos, video_grid_thw, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank3]:     output = func(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1156, in get_image_features
+[rank3]:     vision_output: BaseModelOutputWithDeepstackFeatures = self.visual(
+[rank3]:                                                           ^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank3]:     output = module._old_forward(*args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 952, in wrapper
+[rank3]:     output = func(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 248, in wrapper
+[rank3]:     outputs = func(self, *args, **kwargs)
+[rank3]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 780, in forward
+[rank3]:     hidden_states = self.patch_embed(hidden_states)
+[rank3]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank3]:     output = module._old_forward(*args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 220, in forward
+[rank3]:     return Qwen3VLVisionPatchEmbed_forward(self, hidden_states=hidden_states)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 1058, in compile_wrapper
+[rank3]:     raise e.with_traceback(None) from e.__cause__  # User compiler error
+[rank3]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]: torch._dynamo.exc.Unsupported: Skip calling `torch.compiler.disable()`d function
+[rank3]:   Explanation: Skip calling function `<function AlignDevicesHook.pre_forward at 0x1524f07447c0>` since it was wrapped with `torch.compiler.disable` (reason: None)
+[rank3]:   Hint: Remove the `torch.compiler.disable` call
+
+[rank3]:   Developer debug context: <function AlignDevicesHook.pre_forward at 0x1524f07447c0>
+
+[rank3]:  For more details about this graph break, please visit: https://meta-pytorch.github.io/compile-graph-break-site/gb/gb0098.html
+
+[rank3]: from user code:
+[rank3]:    File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 205, in Qwen3VLVisionPatchEmbed_forward
+[rank3]:     hidden_states = self.proj(hidden_states.to(dtype=target_dtype)).view(-1, self.embed_dim)
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 187, in new_forward
+[rank3]:     args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 50, in wrapper
+[rank3]:     return wrapper._compiled_fn(*args, **kwargs)
+
+[rank3]: Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+[rank2]:     main()
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 188, in main
+[rank2]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/trainer.py", line 616, in _train_with_reset
+[rank2]:     return _orig_train(*train_args, **train_kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 101, in wrapper
+[rank2]:     output = f(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank2]:     return inner_training_loop(
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank2]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank2]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 1347, in training_step
+[rank2]:     return super().training_step(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "<string>", line 40, in _unsloth_training_step
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/unsloth_compiled_cache/UnslothSFTTrainer.py", line 1336, in compute_loss
+[rank2]:     outputs = super().compute_loss(
+[rank2]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/_utils.py", line 2514, in _unsloth_pre_compute_loss
+[rank2]:     outputs = self._old_compute_loss(model, inputs, *args, **kwargs)
+[rank2]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "<string>", line 41, in compute_loss
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/parallel/distributed.py", line 1832, in forward
+[rank2]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank2]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/parallel/distributed.py", line 1657, in _run_ddp_forward
+[rank2]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/utils/operations.py", line 943, in forward
+[rank2]:     return model_forward(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/utils/operations.py", line 931, in __call__
+[rank2]:     return convert_to_fp32(self.model_forward(*args, **kwargs))
+[rank2]:                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+[rank2]:     return func(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/peft/peft_model.py", line 1993, in forward
+[rank2]:     return self.base_model(
+[rank2]:            ^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1884, in _call_impl
+[rank2]:     return inner()
+[rank2]:            ^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1832, in inner
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/peft/tuners/tuners_utils.py", line 330, in forward
+[rank2]:     return self.model.forward(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank2]:     output = module._old_forward(*args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 961, in forward
+[rank2]:     return Qwen3VLForConditionalGeneration_forward(self, input_ids=input_ids, attention_mask=attention_mask, position_ids=position_ids, past_key_values=past_key_values, inputs_embeds=inputs_embeds, labels=labels, pixel_values=pixel_values, pixel_values_videos=pixel_values_videos, image_grid_thw=image_grid_thw, video_grid_thw=video_grid_thw, mm_token_type_ids=mm_token_type_ids, logits_to_keep=logits_to_keep, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/_dynamo/external_utils.py", line 226, in nonrecursive_disable_wrapper
+[rank2]:     return fn(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank2]:     output = func(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 742, in Qwen3VLForConditionalGeneration_forward
+[rank2]:     outputs = self.model(
+[rank2]:               ^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank2]:     output = module._old_forward(*args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank2]:     output = func(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1300, in forward
+[rank2]:     video_outputs: BaseModelOutputWithDeepstackFeatures = self.get_video_features(
+[rank2]:                                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank2]:     output = func(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1139, in get_video_features
+[rank2]:     return self.get_image_features(pixel_values_videos, video_grid_thw, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 876, in wrapper
+[rank2]:     output = func(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1156, in get_image_features
+[rank2]:     vision_output: BaseModelOutputWithDeepstackFeatures = self.visual(
+[rank2]:                                                           ^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank2]:     output = module._old_forward(*args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/generic.py", line 952, in wrapper
+[rank2]:     output = func(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 248, in wrapper
+[rank2]:     outputs = func(self, *args, **kwargs)
+[rank2]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 780, in forward
+[rank2]:     hidden_states = self.patch_embed(hidden_states)
+[rank2]:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 192, in new_forward
+[rank2]:     output = module._old_forward(*args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 220, in forward
+[rank2]:     return Qwen3VLVisionPatchEmbed_forward(self, hidden_states=hidden_states)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 1058, in compile_wrapper
+[rank2]:     raise e.with_traceback(None) from e.__cause__  # User compiler error
+[rank2]:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: torch._dynamo.exc.Unsupported: Skip calling `torch.compiler.disable()`d function
+[rank2]:   Explanation: Skip calling function `<function AlignDevicesHook.pre_forward at 0x14dd1476c720>` since it was wrapped with `torch.compiler.disable` (reason: None)
+[rank2]:   Hint: Remove the `torch.compiler.disable` call
+
+[rank2]:   Developer debug context: <function AlignDevicesHook.pre_forward at 0x14dd1476c720>
+
+[rank2]:  For more details about this graph break, please visit: https://meta-pytorch.github.io/compile-graph-break-site/gb/gb0098.html
+
+[rank2]: from user code:
+[rank2]:    File "/tmp/unsloth_compiled_cache/unsloth_compiled_module_qwen3_vl.py", line 205, in Qwen3VLVisionPatchEmbed_forward
+[rank2]:     hidden_states = self.proj(hidden_states.to(dtype=target_dtype)).view(-1, self.embed_dim)
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 187, in new_forward
+[rank2]:     args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/accelerate/hooks.py", line 50, in wrapper
+[rank2]:     return wrapper._compiled_fn(*args, **kwargs)
+
+[rank2]: Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:239: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/bitsandbytes/_ops.py:186: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+slurmstepd: error: *** JOB 48601414 ON lrdn3220 CANCELLED AT 2026-07-05T10:21:28 ***

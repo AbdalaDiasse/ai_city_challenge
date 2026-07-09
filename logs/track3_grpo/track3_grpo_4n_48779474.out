@@ -1,0 +1,9 @@
+Loading cuda/12.1
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload cuda" first.
+
+Loading cineca-ai/4.3.0
+  ERROR: Load of requirement cuda/12.1 failed
+Node rank : 0 / 4
+Master    : lrdn0038:29502
+GPUs      : 4 per node

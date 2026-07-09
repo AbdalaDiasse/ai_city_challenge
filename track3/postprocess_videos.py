@@ -40,8 +40,10 @@ def find_ffmpeg():
         return None
 
 
-def find_7z():
-    return shutil.which("7z") or shutil.which("7za")
+def find_7z(explicit: str | None = None):
+    if explicit:
+        return explicit
+    return shutil.which("7z") or shutil.which("7za") or shutil.which("7zz")
 
 
 def run(cmd, **kwargs):
@@ -51,7 +53,8 @@ def run(cmd, **kwargs):
 
 # ── per-dataset post-processors ─────────────────────────────────────────────
 
-def process_sotad(videos_dir: Path, _annotations_dir: Path):
+
+def process_sotad(videos_dir: Path, _annotations_dir: Path, sevenz_bin: str | None = None):
     """Extract the 51-part PKWARE split-zip -> so-tad/{train,test}/<id>.mp4"""
     sotad_dir = videos_dir / "so-tad"
     main_zip = sotad_dir / "so_tad.zip"
@@ -67,24 +70,27 @@ def process_sotad(videos_dir: Path, _annotations_dir: Path):
         print(f"[so-tad] so_tad.zip not found at {main_zip} — nothing to extract")
         return
 
-    sevenz = find_7z()
+    parts = sorted(sotad_dir.glob("so_tad.z[0-9]*"))
+
+    sevenz = find_7z(sevenz_bin)
     if not sevenz:
         print(
-            "[so-tad] ERROR: 7z not found.\n"
-            "  Install: conda install -c conda-forge p7zip -y\n"
-            "  Then re-run this script."
+            "[so-tad] ERROR: 7z binary not found. Options:\n"
+            "  A) conda install -c conda-forge p7zip -y\n"
+            "  B) wget https://www.7-zip.org/a/7z2409-linux-x64.tar.xz -O /tmp/7z.tar.xz\n"
+            "     tar xf /tmp/7z.tar.xz -C /tmp 7zz\n"
+            "     python track3/postprocess_videos.py --work-dir $WORK --only so_tad --sevenz /tmp/7zz"
         )
         return
-
-    print(f"[so-tad] extracting {main_zip} via {sevenz} ...")
+    print(f"[so-tad] extracting via {sevenz} ...")
     run([sevenz, "x", "-bb1", "-y", str(main_zip), f"-o{sotad_dir}"])
 
-    # Remove archive parts to reclaim ~27 GB
-    parts = list(sotad_dir.glob("so_tad.z*")) + [main_zip]
-    for p in parts:
-        p.unlink()
+    # Remove archive parts to reclaim ~27 GB (7z may already have deleted them)
+    to_remove = list(sotad_dir.glob("so_tad.z*")) + [main_zip]
+    for p in to_remove:
+        p.unlink(missing_ok=True)
     n = sum(1 for _ in sotad_dir.rglob("*.mp4"))
-    print(f"[so-tad] done — {n} mp4s, removed {len(parts)} archive files")
+    print(f"[so-tad] done — {n} mp4s, removed {len(to_remove)} archive files")
 
 
 def process_htv(videos_dir: Path, _annotations_dir: Path):
@@ -196,9 +202,15 @@ def process_barbados(videos_dir: Path, annotations_dir: Path):
         print(f"[barbados] download_videos.py not found at {dl_script}")
         return
 
+    # Use the venv python if available, fall back to sys.executable
+    venv_python = Path(sys.executable).parent / "python"
+    python = str(venv_python) if venv_python.exists() else sys.executable
+
+    print("[barbados] installing download deps ...")
+    subprocess.run([python, str(dl_script), "--install-deps"], check=False)
+
     print("[barbados] downloading via download_videos.py --only barbados ...")
-    run([sys.executable, str(dl_script),
-         "--out", str(videos_dir), "--only", "barbados"])
+    run([python, str(dl_script), "--out", str(videos_dir), "--only", "barbados"])
 
 
 # ── check mode ──────────────────────────────────────────────────────────────
@@ -272,6 +284,8 @@ def main():
                     help="$WORK root (e.g. /leonardo_work/AIH4A_syrate)")
     ap.add_argument("--only", nargs="+", choices=list(PROCESSORS),
                     help="Only process these datasets")
+    ap.add_argument("--sevenz", default=None,
+                    help="Path to 7z binary (e.g. /tmp/7zz). Auto-detected if omitted.")
     ap.add_argument("--check", action="store_true",
                     help="Print status table and exit without processing")
     args = ap.parse_args()
@@ -287,7 +301,10 @@ def main():
     keys = args.only or list(PROCESSORS)
     for key in keys:
         print(f"\n=== {key} ===")
-        PROCESSORS[key](videos_dir, annotations_dir)
+        if key == "so_tad":
+            PROCESSORS[key](videos_dir, annotations_dir, args.sevenz)
+        else:
+            PROCESSORS[key](videos_dir, annotations_dir)
 
     print("\n--- final status ---")
     check(videos_dir)

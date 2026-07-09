@@ -1,0 +1,105 @@
+W0705 10:50:41.452000 3260100 torch/distributed/run.py:862] 
+W0705 10:50:41.452000 3260100 torch/distributed/run.py:862] *****************************************
+W0705 10:50:41.452000 3260100 torch/distributed/run.py:862] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0705 10:50:41.452000 3260100 torch/distributed/run.py:862] *****************************************
+W0705 10:50:52.118000 3260148 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.118000 3260149 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.118000 3260150 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.118000 3260147 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.191000 3260150 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.191000 3260148 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.191000 3260147 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 10:50:52.191000 3260149 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft_bf16.py", line 180, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft_bf16.py", line 123, in main
+    model, tokenizer = load_model(args)
+                       ^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft_bf16.py", line 78, in load_model
+    model, tokenizer = FastVisionModel.from_pretrained(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 784, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1650, in from_pretrained
+    model, tokenizer = FastBaseModel.from_pretrained(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 784, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/vision.py", line 1120, in from_pretrained
+    model = auto_model.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 387, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/modeling_utils.py", line 4132, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/modeling_utils.py", line 4212, in _load_pretrained_model
+    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/modeling_utils.py", line 4829, in caching_allocator_warmup
+    _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.32 GiB. GPU 0 has a total capacity of 63.42 GiB of which 12.02 GiB is free. Process 3260150 has 16.93 GiB memory in use. Including non-PyTorch memory, this process has 616.00 MiB memory in use. Process 3260149 has 16.93 GiB memory in use. Process 3260147 has 16.93 GiB memory in use. Of the allocated memory 12.12 MiB is allocated by PyTorch, and 7.88 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]W0705 10:51:08.778000 3260100 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 3260147 closing signal SIGTERM
+W0705 10:51:08.779000 3260100 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 3260149 closing signal SIGTERM
+W0705 10:51:08.779000 3260100 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 3260150 closing signal SIGTERM
+E0705 10:51:09.207000 3260100 torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 1 (pid: 3260148) of binary: /leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/python3.11
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 191, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 371, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+track3/train_sft_bf16.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-07-05_10:51:09
+  host      : lrdn1861-net6-3.leonardo.local
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 3260147)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3260147
+[2]:
+  time      : 2026-07-05_10:51:09
+  host      : lrdn1861.leonardo.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : -15 (pid: 3260149)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3260149
+[3]:
+  time      : 2026-07-05_10:51:09
+  host      : lrdn1861.leonardo.local
+  rank      : 3 (local_rank: 3)
+  exitcode  : -15 (pid: 3260150)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3260150
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-07-05_10:51:08
+  host      : lrdn1861-net6-3.leonardo.local
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3260148) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -1,0 +1,19 @@
+Loading cuda/12.1
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload cuda" first.
+
+Loading cineca-ai/4.3.0
+  ERROR: Load of requirement cuda/12.1 failed
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!🦥 Unsloth Zoo will now patch everything to make training faster!🦥 Unsloth Zoo will now patch everything to make training faster!
+🦥 Unsloth Zoo will now patch everything to make training faster!
+
+
+Rank     : 0 / cuda:0
+Run      : grpo_v1
+SFT ckpt : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_v1/checkpoint-5600
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_grpo/grpo_v1
+Loading dataset...

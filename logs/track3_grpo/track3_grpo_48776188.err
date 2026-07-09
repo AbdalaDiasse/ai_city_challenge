@@ -1,0 +1,267 @@
+W0707 08:01:36.321000 1485207 torch/distributed/run.py:862] 
+W0707 08:01:36.321000 1485207 torch/distributed/run.py:862] *****************************************
+W0707 08:01:36.321000 1485207 torch/distributed/run.py:862] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0707 08:01:36.321000 1485207 torch/distributed/run.py:862] *****************************************
+W0707 08:01:46.602000 1485256 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.602000 1485257 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.602000 1485258 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.602000 1485259 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.674000 1485256 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.674000 1485259 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.674000 1485257 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0707 08:01:46.674000 1485258 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 1/750 [00:02<36:20,  2.91s/it]Loading weights:   0%|          | 2/750 [00:07<47:25,  3.80s/it]Loading weights:   1%|          | 4/750 [00:07<18:33,  1.49s/it]Loading weights:   2%|▏         | 13/750 [00:07<03:46,  3.25it/s]Loading weights:   0%|          | 1/750 [00:07<1:37:24,  7.80s/it]Loading weights:   0%|          | 1/750 [00:07<1:37:22,  7.80s/it]Loading weights:   0%|          | 1/750 [00:07<1:37:24,  7.80s/it]Loading weights:   2%|▏         | 17/750 [00:07<02:36,  4.70it/s]Loading weights:   3%|▎         | 23/750 [00:08<03:08,  3.85it/s] Loading weights:   3%|▎         | 23/750 [00:08<01:52,  6.49it/s]Loading weights:   3%|▎         | 24/750 [00:08<03:00,  4.01it/s] Loading weights:   3%|▎         | 26/750 [00:08<02:46,  4.34it/s]Loading weights:   3%|▎         | 26/750 [00:08<02:52,  4.19it/s] Loading weights:   3%|▎         | 26/750 [00:08<01:47,  6.76it/s]Loading weights:   4%|▍         | 29/750 [00:08<02:32,  4.72it/s]Loading weights:   4%|▍         | 29/750 [00:08<02:22,  5.06it/s]Loading weights:   4%|▎         | 28/750 [00:08<02:38,  4.56it/s]Loading weights:   5%|▍         | 35/750 [00:09<01:56,  6.16it/s]Loading weights:   5%|▍         | 35/750 [00:09<01:15,  9.43it/s]Loading weights:   5%|▍         | 35/750 [00:09<02:18,  5.15it/s]Loading weights:   5%|▍         | 35/750 [00:09<02:21,  5.04it/s]Loading weights:   5%|▍         | 37/750 [00:09<01:26,  8.24it/s]Loading weights:   5%|▍         | 37/750 [00:09<02:01,  5.87it/s]Loading weights:   5%|▌         | 39/750 [00:09<01:53,  6.28it/s]Loading weights:   6%|▌         | 42/750 [00:09<01:32,  7.67it/s]Loading weights:   6%|▌         | 42/750 [00:09<01:09, 10.15it/s]Loading weights:   6%|▌         | 42/750 [00:09<01:43,  6.82it/s]Loading weights:   6%|▌         | 42/750 [00:09<01:39,  7.12it/s]Loading weights:   6%|▌         | 44/750 [00:10<01:06, 10.58it/s]Loading weights:   6%|▌         | 46/750 [00:10<01:26,  8.11it/s]Loading weights:   6%|▌         | 45/750 [00:10<01:19,  8.90it/s]Loading weights:   6%|▌         | 46/750 [00:10<01:19,  8.85it/s]Loading weights:   6%|▋         | 47/750 [00:10<01:13,  9.63it/s]Loading weights:   6%|▌         | 46/750 [00:10<01:02, 11.21it/s]Loading weights:   7%|▋         | 49/750 [00:10<01:19,  8.84it/s]Loading weights:   7%|▋         | 49/750 [00:10<01:12,  9.70it/s]Loading weights:   7%|▋         | 50/750 [00:10<01:00, 11.61it/s]Loading weights:   7%|▋         | 50/750 [00:10<00:47, 14.60it/s]Loading weights:   8%|▊         | 57/750 [00:10<00:43, 15.94it/s]Loading weights:   7%|▋         | 54/750 [00:10<01:00, 11.57it/s]Loading weights:   8%|▊         | 59/750 [00:10<00:34, 20.09it/s]Loading weights:   8%|▊         | 59/750 [00:10<00:29, 23.63it/s]Loading weights:   8%|▊         | 63/750 [00:10<00:32, 21.40it/s]Loading weights:   8%|▊         | 61/750 [00:10<00:46, 14.76it/s]Loading weights:   8%|▊         | 57/750 [00:10<01:03, 10.99it/s]Loading weights:   8%|▊         | 62/750 [00:10<00:38, 17.85it/s]Loading weights:   9%|▉         | 68/750 [00:11<00:51, 13.16it/s]Loading weights:   9%|▉         | 71/750 [00:11<01:00, 11.27it/s]Loading weights:   9%|▉         | 68/750 [00:11<01:06, 10.22it/s]Loading weights:   9%|▉         | 67/750 [00:11<01:08,  9.96it/s]Loading weights:   9%|▉         | 68/750 [00:11<01:10,  9.72it/s]Loading weights:  11%|█         | 79/750 [00:11<00:38, 17.31it/s]Loading weights:  11%|█         | 79/750 [00:11<00:36, 18.24it/s]Loading weights:  11%|█         | 79/750 [00:11<00:40, 16.45it/s]Loading weights:  11%|█         | 81/750 [00:12<00:39, 17.07it/s]Loading weights:  11%|█         | 84/750 [00:12<00:34, 19.44it/s]Loading weights:  11%|█         | 83/750 [00:12<00:37, 17.77it/s]Loading weights:  11%|█▏        | 86/750 [00:12<00:31, 21.13it/s]Loading weights:  12%|█▏        | 87/750 [00:12<00:33, 19.66it/s]Loading weights:  12%|█▏        | 89/750 [00:12<00:49, 13.33it/s]Loading weights:  12%|█▏        | 91/750 [00:12<00:44, 14.75it/s]Loading weights:  12%|█▏        | 89/750 [00:12<00:48, 13.68it/s]Loading weights:  12%|█▏        | 90/750 [00:12<00:48, 13.57it/s]Loading weights:  12%|█▏        | 93/750 [00:12<00:41, 15.82it/s]Loading weights:  12%|█▏        | 93/750 [00:12<00:45, 14.40it/s]Loading weights:  13%|█▎        | 94/750 [00:12<00:44, 14.70it/s]Loading weights:  12%|█▏        | 93/750 [00:13<00:47, 13.69it/s]Loading weights:  13%|█▎        | 96/750 [00:13<00:40, 16.32it/s]Loading weights:  13%|█▎        | 100/750 [00:13<00:34, 19.00it/s]Loading weights:  13%|█▎        | 100/750 [00:13<00:32, 20.07it/s]Loading weights:  13%|█▎        | 100/750 [00:13<00:35, 18.22it/s]Loading weights:  13%|█▎        | 100/750 [00:13<00:39, 16.49it/s]Loading weights:  14%|█▎        | 103/750 [00:13<00:38, 16.81it/s]Loading weights:  14%|█▍        | 104/750 [00:13<00:38, 16.96it/s]Loading weights:  14%|█▍        | 104/750 [00:13<00:39, 16.38it/s]Loading weights:  14%|█▎        | 103/750 [00:13<00:38, 16.82it/s]Loading weights:  15%|█▍        | 112/750 [00:13<00:30, 21.06it/s]Loading weights:  15%|█▍        | 112/750 [00:13<00:28, 22.14it/s]Loading weights:  15%|█▍        | 112/750 [00:13<00:27, 22.89it/s]Loading weights:  15%|█▍        | 112/750 [00:13<00:30, 20.79it/s]Loading weights:  15%|█▌        | 115/750 [00:13<00:31, 20.18it/s]Loading weights:  15%|█▌        | 115/750 [00:13<00:29, 21.76it/s]Loading weights:  15%|█▌        | 115/750 [00:13<00:30, 20.91it/s]Loading weights:  15%|█▌        | 115/750 [00:13<00:28, 22.15it/s]Loading weights:  16%|█▌        | 119/750 [00:13<00:28, 22.29it/s]Loading weights:  16%|█▌        | 120/750 [00:13<00:27, 23.00it/s]Loading weights:  16%|█▌        | 120/750 [00:13<00:25, 24.39it/s]Loading weights:  16%|█▌        | 120/750 [00:13<00:25, 25.12it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:25, 24.78it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:25, 24.21it/s]Loading weights:  16%|█▋        | 123/750 [00:14<00:27, 23.08it/s]Loading weights:  17%|█▋        | 125/750 [00:14<00:22, 27.24it/s]Loading weights:  17%|█▋        | 126/750 [00:14<00:35, 17.69it/s]Loading weights:  17%|█▋        | 127/750 [00:14<00:31, 19.52it/s]Loading weights:  17%|█▋        | 126/750 [00:14<00:34, 18.23it/s]Loading weights:  17%|█▋        | 129/750 [00:14<00:29, 20.87it/s]Loading weights:  18%|█▊        | 134/750 [00:14<00:24, 25.24it/s]Loading weights:  18%|█▊        | 134/750 [00:14<00:27, 22.26it/s]Loading weights:  18%|█▊        | 134/750 [00:14<00:26, 22.82it/s]Loading weights:  18%|█▊        | 134/750 [00:14<00:27, 22.20it/s]Loading weights:  18%|█▊        | 137/750 [00:14<00:32, 19.00it/s]Loading weights:  18%|█▊        | 137/750 [00:14<00:32, 18.69it/s]Loading weights:  18%|█▊        | 137/750 [00:14<00:35, 17.16it/s]Loading weights:  18%|█▊        | 138/750 [00:14<00:36, 16.82it/s]Loading weights:  19%|█▉        | 141/750 [00:15<00:28, 21.65it/s]Loading weights:  19%|█▉        | 141/750 [00:15<00:33, 18.23it/s]Loading weights:  19%|█▉        | 142/750 [00:15<00:32, 18.44it/s]Loading weights:  19%|█▉        | 142/750 [00:15<00:30, 20.03it/s]Loading weights:  19%|█▉        | 144/750 [00:15<00:27, 22.40it/s]Loading weights:  19%|█▉        | 145/750 [00:15<00:30, 20.02it/s]Loading weights:  19%|█▉        | 145/750 [00:15<00:32, 18.54it/s]Loading weights:  19%|█▉        | 145/750 [00:15<00:45, 13.19it/s]Loading weights:  20%|█▉        | 147/750 [00:15<00:39, 15.30it/s]Loading weights:  20%|█▉        | 147/750 [00:15<00:42, 14.19it/s]Loading weights:  20%|█▉        | 148/750 [00:15<00:39, 15.19it/s]Loading weights:  21%|██        | 155/750 [00:15<00:29, 20.42it/s]Loading weights:  21%|██        | 156/750 [00:15<00:27, 21.69it/s]Loading weights:  21%|██        | 155/750 [00:15<00:28, 21.07it/s]Loading weights:  21%|██        | 156/750 [00:15<00:26, 22.10it/s]Loading weights:  21%|██        | 158/750 [00:16<00:45, 13.10it/s]Loading weights:  21%|██        | 158/750 [00:16<00:43, 13.51it/s]Loading weights:  21%|██        | 159/750 [00:16<00:42, 13.96it/s]Loading weights:  21%|██        | 159/750 [00:16<00:40, 14.54it/s]Loading weights:  22%|██▏       | 167/750 [00:16<00:30, 19.35it/s]Loading weights:  22%|██▏       | 166/750 [00:16<00:31, 18.25it/s]Loading weights:  22%|██▏       | 166/750 [00:16<00:33, 17.19it/s]Loading weights:  22%|██▏       | 166/750 [00:16<00:34, 16.76it/s]Loading weights:  23%|██▎       | 169/750 [00:16<00:32, 18.13it/s]Loading weights:  23%|██▎       | 170/750 [00:16<00:30, 18.99it/s]Loading weights:  23%|██▎       | 171/750 [00:16<00:28, 20.32it/s]Loading weights:  23%|██▎       | 175/750 [00:16<00:22, 25.47it/s]Loading weights:  24%|██▍       | 180/750 [00:16<00:22, 25.87it/s]Loading weights:  24%|██▎       | 178/750 [00:16<00:23, 24.40it/s]Loading weights:  24%|██▍       | 180/750 [00:16<00:22, 25.42it/s]Loading weights:  24%|██▍       | 180/750 [00:16<00:21, 26.32it/s]Loading weights:  24%|██▍       | 183/750 [00:17<00:27, 20.36it/s]Loading weights:  25%|██▍       | 185/750 [00:17<00:25, 21.73it/s]Loading weights:  24%|██▍       | 183/750 [00:17<00:28, 19.80it/s]Loading weights:  24%|██▍       | 182/750 [00:17<00:29, 19.39it/s]Loading weights:  25%|██▌       | 189/750 [00:17<00:23, 23.55it/s]Loading weights:  25%|██▌       | 188/750 [00:17<00:22, 24.71it/s]Loading weights:  25%|██▌       | 189/750 [00:17<00:25, 21.61it/s]Loading weights:  25%|██▌       | 188/750 [00:17<00:27, 20.20it/s]Loading weights:  26%|██▌       | 192/750 [00:17<00:27, 20.60it/s]Loading weights:  26%|██▌       | 192/750 [00:17<00:24, 22.77it/s]Loading weights:  26%|██▌       | 192/750 [00:17<00:24, 22.60it/s]Loading weights:  25%|██▌       | 191/750 [00:17<00:26, 21.38it/s]Loading weights:  26%|██▌       | 196/750 [00:17<00:24, 22.72it/s]Loading weights:  26%|██▌       | 195/750 [00:17<00:26, 21.11it/s]Loading weights:  26%|██▌       | 196/750 [00:17<00:26, 21.08it/s]Loading weights:  26%|██▌       | 194/750 [00:17<00:27, 20.21it/s]Loading weights:  27%|██▋       | 199/750 [00:17<00:22, 24.12it/s]Loading weights:  27%|██▋       | 199/750 [00:17<00:23, 23.18it/s]Loading weights:  27%|██▋       | 199/750 [00:17<00:24, 22.76it/s]Loading weights:  27%|██▋       | 200/750 [00:17<00:24, 22.05it/s]Loading weights:  27%|██▋       | 203/750 [00:18<00:20, 26.36it/s]Loading weights:  27%|██▋       | 203/750 [00:18<00:21, 25.97it/s]Loading weights:  27%|██▋       | 203/750 [00:18<00:20, 26.99it/s]Loading weights:  28%|██▊       | 208/750 [00:18<00:19, 28.39it/s]Loading weights:  28%|██▊       | 208/750 [00:18<00:17, 30.77it/s]Loading weights:  28%|██▊       | 208/750 [00:18<00:17, 30.40it/s]Loading weights:  28%|██▊       | 207/750 [00:18<00:18, 29.18it/s]Loading weights:  28%|██▊       | 211/750 [00:18<00:24, 22.15it/s]Loading weights:  28%|██▊       | 213/750 [00:18<00:22, 24.03it/s]Loading weights:  28%|██▊       | 213/750 [00:18<00:22, 24.39it/s]Loading weights:  28%|██▊       | 213/750 [00:18<00:23, 22.71it/s]Loading weights:  29%|██▉       | 216/750 [00:18<00:23, 23.22it/s]Loading weights:  29%|██▉       | 218/750 [00:18<00:18, 28.32it/s]Loading weights:  29%|██▉       | 218/750 [00:18<00:19, 27.39it/s]Loading weights:  29%|██▉       | 218/750 [00:18<00:20, 26.04it/s]Loading weights:  30%|██▉       | 222/750 [00:18<00:20, 26.25it/s]Loading weights:  30%|██▉       | 222/750 [00:18<00:20, 25.38it/s]Loading weights:  30%|██▉       | 222/750 [00:18<00:21, 24.31it/s]Loading weights:  30%|██▉       | 222/750 [00:18<00:24, 21.74it/s]Loading weights:  30%|███       | 225/750 [00:19<00:24, 21.54it/s]Loading weights:  30%|███       | 225/750 [00:19<00:25, 20.41it/s]Loading weights:  30%|███       | 225/750 [00:19<00:23, 22.47it/s]Loading weights:  30%|███       | 226/750 [00:19<00:23, 22.08it/s]Loading weights:  31%|███       | 230/750 [00:19<00:20, 25.34it/s]Loading weights:  31%|███       | 230/750 [00:19<00:19, 26.56it/s]Loading weights:  31%|███       | 232/750 [00:19<00:21, 23.88it/s]Loading weights:  31%|███       | 234/750 [00:19<00:22, 23.42it/s]Loading weights:  31%|███       | 232/750 [00:19<00:24, 21.10it/s]Loading weights:  31%|███       | 234/750 [00:19<00:21, 23.84it/s]Loading weights:  31%|███▏      | 235/750 [00:19<00:20, 24.73it/s]Loading weights:  32%|███▏      | 241/750 [00:19<00:16, 30.34it/s]Loading weights:  32%|███▏      | 240/750 [00:19<00:17, 28.72it/s]Loading weights:  32%|███▏      | 241/750 [00:19<00:17, 29.64it/s]Loading weights:  32%|███▏      | 243/750 [00:19<00:15, 32.07it/s]Loading weights:  33%|███▎      | 244/750 [00:19<00:21, 23.05it/s]Loading weights:  33%|███▎      | 245/750 [00:19<00:20, 24.30it/s]Loading weights:  33%|███▎      | 245/750 [00:19<00:21, 23.73it/s]Loading weights:  33%|███▎      | 247/750 [00:20<00:28, 17.79it/s]Loading weights:  33%|███▎      | 247/750 [00:20<00:30, 16.74it/s]Loading weights:  33%|███▎      | 248/750 [00:20<00:30, 16.67it/s]Loading weights:  33%|███▎      | 249/750 [00:20<00:28, 17.33it/s]Loading weights:  34%|███▎      | 252/750 [00:20<00:25, 19.59it/s]Loading weights:  34%|███▎      | 252/750 [00:20<00:24, 20.42it/s]Loading weights:  33%|███▎      | 251/750 [00:20<00:25, 19.53it/s]Loading weights:  34%|███▍      | 254/750 [00:21<00:52,  9.48it/s]Loading weights:  34%|███▍      | 255/750 [00:21<01:00,  8.21it/s]Loading weights:  34%|███▍      | 257/750 [00:21<01:01,  7.96it/s]Loading weights:  34%|███▍      | 255/750 [00:21<01:02,  7.89it/s]Loading weights:  34%|███▍      | 256/750 [00:21<00:55,  8.89it/s]Loading weights:  34%|███▍      | 255/750 [00:21<01:09,  7.11it/s]Loading weights:  34%|███▍      | 257/750 [00:21<01:01,  7.99it/s]Loading weights:  34%|███▍      | 257/750 [00:21<00:59,  8.23it/s]Loading weights:  34%|███▍      | 258/750 [00:21<00:54,  9.00it/s]Loading weights:  35%|███▍      | 259/750 [00:21<01:02,  7.86it/s]Loading weights:  35%|███▍      | 259/750 [00:21<00:57,  8.61it/s]Loading weights:  35%|███▌      | 263/750 [00:21<00:40, 11.97it/s]Loading weights:  35%|███▌      | 263/750 [00:22<00:45, 10.69it/s]Loading weights:  35%|███▌      | 263/750 [00:22<00:47, 10.36it/s]Loading weights:  35%|███▌      | 265/750 [00:22<00:42, 11.32it/s]Loading weights:  35%|███▌      | 266/750 [00:22<00:38, 12.49it/s]Loading weights:  35%|███▌      | 266/750 [00:22<00:46, 10.35it/s]Loading weights:  36%|███▌      | 268/750 [00:22<00:45, 10.49it/s]Loading weights:  36%|███▌      | 268/750 [00:22<00:55,  8.61it/s]Loading weights:  36%|███▌      | 268/750 [00:22<00:56,  8.52it/s]Loading weights:  36%|███▌      | 270/750 [00:22<00:56,  8.53it/s]Loading weights:  36%|███▌      | 269/750 [00:22<00:57,  8.30it/s]Loading weights:  36%|███▌      | 270/750 [00:22<00:49,  9.68it/s]Loading weights:  37%|███▋      | 274/750 [00:23<00:40, 11.71it/s]Loading weights:  37%|███▋      | 276/750 [00:23<00:34, 13.58it/s]Loading weights:  37%|███▋      | 274/750 [00:23<00:38, 12.48it/s]Loading weights:  37%|███▋      | 276/750 [00:23<00:40, 11.65it/s]Loading weights:  37%|███▋      | 279/750 [00:23<00:45, 10.31it/s]Loading weights:  37%|███▋      | 278/750 [00:23<00:40, 11.72it/s]Loading weights:  37%|███▋      | 277/750 [00:23<00:47,  9.99it/s]Loading weights:  37%|███▋      | 277/750 [00:23<00:49,  9.47it/s]Loading weights:  38%|███▊      | 284/750 [00:23<00:31, 14.79it/s]Loading weights:  37%|███▋      | 281/750 [00:23<00:37, 12.41it/s]Loading weights:  38%|███▊      | 284/750 [00:23<00:27, 17.26it/s]Loading weights:  38%|███▊      | 284/750 [00:23<00:33, 13.94it/s]Loading weights:  38%|███▊      | 287/750 [00:23<00:30, 15.30it/s]Loading weights:  38%|███▊      | 287/750 [00:23<00:29, 15.90it/s]Loading weights:  38%|███▊      | 288/750 [00:23<00:23, 19.67it/s]Loading weights:  38%|███▊      | 287/750 [00:23<00:27, 17.03it/s]Loading weights:  39%|███▊      | 290/750 [00:24<00:29, 15.47it/s]Loading weights:  39%|███▊      | 290/750 [00:24<00:31, 14.47it/s]Loading weights:  39%|███▊      | 290/750 [00:24<00:33, 13.93it/s]Loading weights:  39%|███▉      | 291/750 [00:24<00:27, 16.54it/s]Loading weights:  39%|███▉      | 296/750 [00:24<00:20, 21.77it/s]Loading weights:  39%|███▉      | 295/750 [00:24<00:22, 20.05it/s]Loading weights:  39%|███▉      | 296/750 [00:24<00:22, 20.47it/s]Loading weights:  39%|███▉      | 296/750 [00:24<00:22, 20.58it/s]Loading weights:  40%|███▉      | 298/750 [00:24<00:21, 20.84it/s]Loading weights:  40%|████      | 300/750 [00:24<00:19, 22.83it/s]Loading weights:  40%|████      | 300/750 [00:24<00:20, 22.48it/s]Loading weights:  40%|████      | 301/750 [00:24<00:22, 19.99it/s]Loading weights:  40%|████      | 301/750 [00:24<00:22, 20.07it/s]Loading weights:  41%|████      | 304/750 [00:24<00:20, 22.22it/s]Loading weights:  41%|████      | 304/750 [00:24<00:19, 22.33it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:16, 27.36it/s]Loading weights:  41%|████      | 309/750 [00:24<00:16, 26.93it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:16, 27.30it/s]Loading weights:  41%|████▏     | 310/750 [00:24<00:16, 26.75it/s]Loading weights:  42%|████▏     | 313/750 [00:24<00:16, 26.47it/s]Loading weights:  42%|████▏     | 314/750 [00:24<00:17, 25.51it/s]Loading weights:  42%|████▏     | 313/750 [00:24<00:17, 25.41it/s]Loading weights:  42%|████▏     | 314/750 [00:24<00:17, 25.55it/s]Loading weights:  43%|████▎     | 321/750 [00:24<00:14, 29.39it/s]Loading weights:  43%|████▎     | 321/750 [00:24<00:14, 30.55it/s]Loading weights:  43%|████▎     | 321/750 [00:25<00:13, 30.97it/s]Loading weights:  43%|████▎     | 323/750 [00:25<00:17, 24.16it/s]Loading weights:  43%|████▎     | 325/750 [00:25<00:27, 15.71it/s]Loading weights:  43%|████▎     | 326/750 [00:25<00:25, 16.65it/s]Loading weights:  43%|████▎     | 325/750 [00:25<00:26, 16.16it/s]Loading weights:  43%|████▎     | 325/750 [00:25<00:26, 16.12it/s]Loading weights:  44%|████▍     | 331/750 [00:25<00:20, 20.76it/s]Loading weights:  44%|████▍     | 331/750 [00:25<00:20, 20.87it/s]Loading weights:  44%|████▍     | 332/750 [00:25<00:20, 20.63it/s]Loading weights:  44%|████▍     | 332/750 [00:25<00:25, 16.71it/s]Loading weights:  45%|████▍     | 335/750 [00:25<00:20, 20.08it/s]Loading weights:  45%|████▍     | 335/750 [00:25<00:20, 19.99it/s]Loading weights:  45%|████▍     | 335/750 [00:25<00:21, 19.48it/s]Loading weights:  46%|████▌     | 343/750 [00:26<00:15, 26.35it/s]Loading weights:  46%|████▌     | 342/750 [00:26<00:15, 26.04it/s]Loading weights:  46%|████▌     | 343/750 [00:26<00:16, 24.74it/s]Loading weights:  46%|████▌     | 343/750 [00:26<00:16, 24.81it/s]Loading weights:  46%|████▋     | 348/750 [00:26<00:14, 27.85it/s]Loading weights:  46%|████▌     | 346/750 [00:26<00:15, 26.35it/s]Loading weights:  47%|████▋     | 350/750 [00:26<00:14, 28.52it/s]Loading weights:  47%|████▋     | 350/750 [00:26<00:14, 28.46it/s]Loading weights:  47%|████▋     | 352/750 [00:26<00:13, 29.48it/s]Loading weights:  47%|████▋     | 350/750 [00:26<00:14, 28.51it/s]Loading weights:  47%|████▋     | 356/750 [00:26<00:13, 30.18it/s]Loading weights:  47%|████▋     | 356/750 [00:26<00:14, 28.11it/s]Loading weights:  47%|████▋     | 356/750 [00:26<00:13, 30.25it/s]Loading weights:  47%|████▋     | 354/750 [00:26<00:19, 19.98it/s]Loading weights:  48%|████▊     | 360/750 [00:26<00:14, 26.97it/s]Loading weights:  48%|████▊     | 360/750 [00:26<00:14, 26.94it/s]Loading weights:  48%|████▊     | 360/750 [00:26<00:16, 23.92it/s]Loading weights:  49%|████▊     | 364/750 [00:26<00:15, 24.25it/s]Loading weights:  49%|████▊     | 365/750 [00:26<00:14, 26.50it/s]Loading weights:  49%|████▊     | 365/750 [00:26<00:12, 29.62it/s]Loading weights:  49%|████▉     | 367/750 [00:26<00:13, 29.45it/s]Loading weights:  50%|████▉     | 373/750 [00:27<00:12, 30.41it/s]Loading weights:  50%|████▉     | 373/750 [00:27<00:13, 28.46it/s]Loading weights:  50%|████▉     | 373/750 [00:27<00:13, 28.38it/s]Loading weights:  50%|████▉     | 373/750 [00:27<00:13, 27.52it/s]Loading weights:  50%|█████     | 378/750 [00:27<00:12, 30.47it/s]Loading weights:  50%|█████     | 378/750 [00:27<00:11, 31.86it/s]Loading weights:  50%|█████     | 378/750 [00:27<00:12, 30.33it/s]Loading weights:  50%|█████     | 378/750 [00:27<00:14, 25.14it/s]Loading weights:  51%|█████     | 382/750 [00:27<00:12, 30.26it/s]Loading weights:  51%|█████     | 382/750 [00:27<00:13, 28.12it/s]Loading weights:  51%|█████     | 382/750 [00:27<00:13, 28.14it/s]Loading weights:  51%|█████▏    | 386/750 [00:27<00:16, 22.55it/s]Loading weights:  51%|█████▏    | 386/750 [00:28<00:19, 18.61it/s]Loading weights:  52%|█████▏    | 387/750 [00:28<00:21, 17.13it/s]Loading weights:  51%|█████▏    | 386/750 [00:28<00:21, 17.23it/s]Loading weights:  52%|█████▏    | 389/750 [00:28<00:20, 17.78it/s]Loading weights:  56%|█████▌    | 418/750 [00:28<00:06, 55.17it/s]Loading weights:  56%|█████▌    | 418/750 [00:28<00:06, 53.85it/s]Loading weights:  56%|█████▌    | 419/750 [00:28<00:06, 51.65it/s]Loading weights:  57%|█████▋    | 424/750 [00:28<00:04, 66.85it/s]Loading weights:  57%|█████▋    | 429/750 [00:29<00:11, 28.36it/s]Loading weights:  57%|█████▋    | 429/750 [00:29<00:11, 28.78it/s]Loading weights:  57%|█████▋    | 430/750 [00:29<00:10, 29.33it/s]Loading weights:  58%|█████▊    | 436/750 [00:29<00:09, 32.02it/s]Loading weights:  58%|█████▊    | 436/750 [00:29<00:10, 29.47it/s]Loading weights:  58%|█████▊    | 437/750 [00:29<00:11, 28.05it/s]Loading weights:  59%|█████▊    | 439/750 [00:29<00:10, 29.82it/s]Loading weights:  59%|█████▉    | 445/750 [00:29<00:09, 32.35it/s]Loading weights:  60%|██████    | 451/750 [00:29<00:07, 40.36it/s]Loading weights:  61%|██████▏   | 461/750 [00:29<00:06, 46.94it/s]Loading weights:  62%|██████▏   | 464/750 [00:29<00:05, 51.09it/s]Loading weights:  61%|██████▏   | 460/750 [00:29<00:06, 42.94it/s]Loading weights:  62%|██████▏   | 462/750 [00:29<00:06, 45.05it/s]Loading weights:  64%|██████▎   | 477/750 [00:29<00:04, 60.12it/s]Loading weights:  64%|██████▍   | 479/750 [00:29<00:04, 61.43it/s]Loading weights:  64%|██████▍   | 482/750 [00:29<00:03, 67.22it/s]Loading weights:  65%|██████▍   | 486/750 [00:29<00:03, 66.68it/s]Loading weights:  67%|██████▋   | 499/750 [00:29<00:03, 82.92it/s]Loading weights:  67%|██████▋   | 499/750 [00:29<00:03, 78.72it/s]Loading weights:  66%|██████▋   | 498/750 [00:29<00:03, 82.56it/s]Loading weights:  68%|██████▊   | 507/750 [00:29<00:02, 82.60it/s]Loading weights:  69%|██████▊   | 514/750 [00:29<00:02, 89.72it/s]Loading weights:  69%|██████▉   | 521/750 [00:29<00:02, 99.83it/s]Loading weights:  70%|██████▉   | 523/750 [00:29<00:02, 94.86it/s]Loading weights:  69%|██████▉   | 521/750 [00:29<00:02, 93.47it/s]Loading weights:  71%|███████   | 531/750 [00:29<00:02, 101.45it/s]Loading weights:  71%|███████▏  | 536/750 [00:30<00:02, 98.58it/s]Loading weights:  71%|███████   | 534/750 [00:30<00:02, 90.66it/s]Loading weights:  72%|███████▏  | 538/750 [00:30<00:02, 94.91it/s]Loading weights:  73%|███████▎  | 545/750 [00:30<00:02, 99.06it/s] Loading weights:  73%|███████▎  | 551/750 [00:30<00:01, 102.64it/s]Loading weights:  74%|███████▍  | 556/750 [00:30<00:01, 115.30it/s]Loading weights:  75%|███████▍  | 559/750 [00:30<00:01, 105.11it/s]Loading weights:  74%|███████▍  | 555/750 [00:30<00:01, 98.31it/s]Loading weights:  76%|███████▌  | 570/750 [00:30<00:01, 111.89it/s]Loading weights:  76%|███████▌  | 570/750 [00:30<00:01, 112.44it/s]Loading weights:  76%|███████▋  | 573/750 [00:30<00:01, 112.59it/s]Loading weights:  78%|███████▊  | 582/750 [00:30<00:01, 125.19it/s]Loading weights:  79%|███████▉  | 595/750 [00:30<00:01, 130.91it/s]Loading weights:  79%|███████▉  | 596/750 [00:30<00:01, 134.96it/s]Loading weights:  79%|███████▉  | 595/750 [00:30<00:01, 131.85it/s]Loading weights:  80%|███████▉  | 597/750 [00:30<00:01, 128.46it/s]Loading weights:  83%|████████▎ | 620/750 [00:30<00:00, 157.97it/s]Loading weights:  83%|████████▎ | 619/750 [00:30<00:00, 154.88it/s]Loading weights:  83%|████████▎ | 620/750 [00:30<00:00, 157.30it/s]Loading weights:  83%|████████▎ | 621/750 [00:30<00:01, 122.22it/s]Loading weights:  85%|████████▍ | 636/750 [00:31<00:01, 58.89it/s] Loading weights:  85%|████████▍ | 635/750 [00:31<00:01, 57.65it/s] Loading weights:  85%|████████▌ | 638/750 [00:31<00:01, 56.27it/s] Loading weights:  85%|████████▌ | 638/750 [00:31<00:01, 58.57it/s] Loading weights:  86%|████████▌ | 646/750 [00:31<00:01, 63.65it/s]Loading weights:  87%|████████▋ | 649/750 [00:31<00:01, 66.58it/s]Loading weights:  87%|████████▋ | 653/750 [00:31<00:01, 67.32it/s]Loading weights:  87%|████████▋ | 656/750 [00:31<00:01, 68.81it/s]Loading weights:  89%|████████▉ | 667/750 [00:31<00:01, 72.51it/s]Loading weights:  89%|████████▉ | 667/750 [00:31<00:01, 73.96it/s]Loading weights:  89%|████████▉ | 666/750 [00:31<00:01, 70.54it/s]Loading weights:  89%|████████▉ | 670/750 [00:31<00:01, 56.70it/s]Loading weights:  90%|█████████ | 678/750 [00:31<00:01, 61.24it/s]Loading weights:  90%|█████████ | 678/750 [00:31<00:01, 60.83it/s]Loading weights:  91%|█████████ | 679/750 [00:31<00:01, 61.07it/s]Loading weights:  91%|█████████ | 681/750 [00:32<00:01, 60.48it/s]Loading weights:  92%|█████████▏| 691/750 [00:32<00:00, 67.93it/s]Loading weights:  92%|█████████▏| 691/750 [00:32<00:00, 69.24it/s]Loading weights:  92%|█████████▏| 689/750 [00:32<00:00, 66.02it/s]Loading weights:  94%|█████████▍| 705/750 [00:32<00:00, 77.51it/s]Loading weights:  94%|█████████▍| 705/750 [00:32<00:00, 80.01it/s]Loading weights:  94%|█████████▍| 705/750 [00:32<00:00, 79.32it/s]Loading weights:  94%|█████████▍| 705/750 [00:32<00:00, 78.79it/s]Loading weights:  95%|█████████▌| 716/750 [00:32<00:00, 71.04it/s]Loading weights:  95%|█████████▌| 716/750 [00:32<00:00, 72.24it/s]Loading weights:  95%|█████████▌| 716/750 [00:32<00:00, 65.29it/s]Loading weights:  96%|█████████▌| 717/750 [00:32<00:00, 67.79it/s]Loading weights:  97%|█████████▋| 725/750 [00:32<00:00, 67.16it/s]Loading weights:  97%|█████████▋| 725/750 [00:32<00:00, 68.97it/s]Loading weights:  97%|█████████▋| 725/750 [00:32<00:00, 66.28it/s]Loading weights:  97%|█████████▋| 727/750 [00:32<00:00, 47.33it/s]Loading weights:  98%|█████████▊| 733/750 [00:33<00:00, 27.94it/s]Loading weights:  98%|█████████▊| 734/750 [00:33<00:00, 28.83it/s]Loading weights:  98%|█████████▊| 733/750 [00:33<00:00, 27.42it/s]Loading weights:  98%|█████████▊| 735/750 [00:33<00:00, 33.36it/s]Loading weights:  99%|█████████▊| 739/750 [00:34<00:00, 20.14it/s]Loading weights:  99%|█████████▊| 739/750 [00:34<00:00, 19.64it/s]Loading weights:  99%|█████████▉| 741/750 [00:34<00:00, 21.56it/s]Loading weights:  99%|█████████▉| 741/750 [00:34<00:00, 17.28it/s]Loading weights:  99%|█████████▉| 744/750 [00:34<00:00, 18.78it/s]Loading weights:  99%|█████████▉| 746/750 [00:34<00:00, 17.87it/s]Loading weights: 100%|█████████▉| 748/750 [00:34<00:00, 17.91it/s]Loading weights:  99%|█████████▉| 744/750 [00:34<00:00, 15.62it/s]Loading weights:  99%|█████████▉| 746/750 [00:34<00:00, 17.46it/s]Loading weights: 100%|██████████| 750/750 [00:34<00:00, 21.61it/s]
+Loading weights: 100%|██████████| 750/750 [00:34<00:00, 21.61it/s]
+Loading weights: 100%|██████████| 750/750 [00:34<00:00, 21.61it/s]
+Loading weights: 100%|██████████| 750/750 [00:34<00:00, 21.61it/s]
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+[accelerate.utils.other|WARNING][RANK 0] Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'bos_token_id': None}.
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+Unsloth is running with multi GPUs - the effective batch size is multiplied by 4
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 1 | Total steps = 9,665
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 1 | Total steps = 9,665
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 1 | Total steps = 9,665
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+==((====))==  Unsloth - 2x faster free finetuning | Num GPUs used = 1
+   \\   /|    Num examples = 38,662 | Num Epochs = 1 | Total steps = 9,665
+O^O/ \_/ \    Batch size per device = 1 | Gradient accumulation steps = 4
+\        /    Data Parallel GPUs = 4 | Total batch size (1 x 4 x 4) = 16
+ "-____-"     Trainable parameters = 51,346,944 of 5,504,970,480 (0.93% trained)
+  0%|          | 0/9665 [00:00<?, ?it/s]Passing `generation_config` together with generation-related arguments=({'pad_token_id', 'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Passing `generation_config` together with generation-related arguments=({'disable_compile', 'pad_token_id'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Passing `generation_config` together with generation-related arguments=({'pad_token_id', 'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Passing `generation_config` together with generation-related arguments=({'pad_token_id', 'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 355, in <module>
+[rank2]:     main()
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 346, in main
+[rank2]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank2]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 101, in wrapper
+[rank2]:     output = f(self, *args, **kwargs)
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 143, in _unsloth_train_with_resume_guard
+[rank2]:     return original_train(self, *args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank2]:     return inner_training_loop(
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank2]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank2]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "<string>", line 34, in _unsloth_training_step
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank2]:     return func(self, *args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3023, in _prepare_inputs
+[rank2]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank2]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 561, in wrapped
+[rank2]:     return original(self, *args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3570, in _generate_and_score_completions
+[rank2]:     rewards_per_func = self._calculate_rewards(inputs, prompts, completions, completion_ids_list)
+[rank2]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank2]:     return func(self, *args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3068, in _calculate_rewards
+[rank2]:     output_reward_func = reward_func(
+[rank2]:                          ^^^^^^^^^^^^
+[rank2]: TypeError: reward_fn() missing 2 required positional arguments: 'answers' and 'task_types'
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 355, in <module>
+[rank3]:     main()
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 346, in main
+[rank3]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank3]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 101, in wrapper
+[rank3]:     output = f(self, *args, **kwargs)
+[rank3]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 143, in _unsloth_train_with_resume_guard
+[rank3]:     return original_train(self, *args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank3]:     return inner_training_loop(
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank3]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank3]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "<string>", line 34, in _unsloth_training_step
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank3]:     return func(self, *args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3023, in _prepare_inputs
+[rank3]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank3]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 561, in wrapped
+[rank3]:     return original(self, *args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3570, in _generate_and_score_completions
+[rank3]:     rewards_per_func = self._calculate_rewards(inputs, prompts, completions, completion_ids_list)
+[rank3]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank3]:     return func(self, *args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3068, in _calculate_rewards
+[rank3]:     output_reward_func = reward_func(
+[rank3]:                          ^^^^^^^^^^^^
+[rank3]: TypeError: reward_fn() missing 2 required positional arguments: 'answers' and 'task_types'
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 355, in <module>
+[rank1]:     main()
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 346, in main
+[rank1]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank1]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 101, in wrapper
+[rank1]:     output = f(self, *args, **kwargs)
+[rank1]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 143, in _unsloth_train_with_resume_guard
+[rank1]:     return original_train(self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank1]:     return inner_training_loop(
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank1]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank1]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "<string>", line 34, in _unsloth_training_step
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank1]:     return func(self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3023, in _prepare_inputs
+[rank1]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank1]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 561, in wrapped
+[rank1]:     return original(self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3570, in _generate_and_score_completions
+[rank1]:     rewards_per_func = self._calculate_rewards(inputs, prompts, completions, completion_ids_list)
+[rank1]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank1]:     return func(self, *args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3068, in _calculate_rewards
+[rank1]:     output_reward_func = reward_func(
+[rank1]:                          ^^^^^^^^^^^^
+[rank1]: TypeError: reward_fn() missing 2 required positional arguments: 'answers' and 'task_types'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 355, in <module>
+[rank0]:     main()
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_grpo.py", line 346, in main
+[rank0]:     trainer.train(resume_from_checkpoint=args.resume or None)
+[rank0]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 101, in wrapper
+[rank0]:     output = f(self, *args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 143, in _unsloth_train_with_resume_guard
+[rank0]:     return original_train(self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1424, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "<string>", line 81, in _fast_inner_training_loop
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "<string>", line 34, in _unsloth_training_step
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3023, in _prepare_inputs
+[rank0]:     generation_batch = self._generate_and_score_completions(generation_batch)
+[rank0]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/rl.py", line 561, in wrapped
+[rank0]:     return original(self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3570, in _generate_and_score_completions
+[rank0]:     rewards_per_func = self._calculate_rewards(inputs, prompts, completions, completion_ids_list)
+[rank0]:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/trl/extras/profiling.py", line 98, in wrapper
+[rank0]:     return func(self, *args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/tmp/unsloth_compiled_cache/UnslothGRPOTrainer.py", line 3068, in _calculate_rewards
+[rank0]:     output_reward_func = reward_func(
+[rank0]:                          ^^^^^^^^^^^^
+[rank0]: TypeError: reward_fn() missing 2 required positional arguments: 'answers' and 'task_types'
+  0%|          | 0/9665 [00:48<?, ?it/s]
+[rank0]:[W707 08:03:33.105406081 ProcessGroupNCCL.cpp:1647] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0707 08:03:34.775000 1485207 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 1485257 closing signal SIGTERM
+W0707 08:03:34.777000 1485207 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 1485258 closing signal SIGTERM
+W0707 08:03:34.777000 1485207 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 1485259 closing signal SIGTERM
+E0707 08:03:35.041000 1485207 torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 0 (pid: 1485256) of binary: /leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/python3.11
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 191, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 371, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+track3/train_grpo.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-07-07_08:03:35
+  host      : lrdn1275-net4-3.leonardo.local
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 1485257) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2026-07-07_08:03:35
+  host      : lrdn1275-net4-3.leonardo.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 1485258) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2026-07-07_08:03:35
+  host      : lrdn1275.leonardo.local
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 1485259) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-07-07_08:03:34
+  host      : lrdn1275-net4-3.leonardo.local
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1485256) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

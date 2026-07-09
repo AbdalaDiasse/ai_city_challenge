@@ -1,0 +1,167 @@
+W0705 08:12:01.195000 127607 torch/distributed/run.py:862] 
+W0705 08:12:01.195000 127607 torch/distributed/run.py:862] *****************************************
+W0705 08:12:01.195000 127607 torch/distributed/run.py:862] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0705 08:12:01.195000 127607 torch/distributed/run.py:862] *****************************************
+W0705 08:12:11.458000 127627 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.458000 127628 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.458000 127629 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.458000 127626 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.529000 127629 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.529000 127627 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.529000 127628 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 08:12:11.529000 127626 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit/resolve/main/config.json
+[huggingface_hub.utils._http|WARNING]'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+[huggingface_hub.utils._http|WARNING]Retrying in 1s [Retry 1/5].
+'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit/resolve/main/config.json
+[huggingface_hub.utils._http|WARNING]'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+[huggingface_hub.utils._http|WARNING]Retrying in 1s [Retry 1/5].
+'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit/resolve/main/adapter_config.json
+[huggingface_hub.utils._http|WARNING]'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit/resolve/main/adapter_config.json
+Retrying in 1s [Retry 1/5].
+[huggingface_hub.utils._http|WARNING]Retrying in 1s [Retry 1/5].
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 722, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 512, in cached_files
+    raise e
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1152, in _hf_hub_download_to_cache_dir
+    _get_metadata_or_catch_error(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1712, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1620, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 719, in _httpx_follow_relative_redirects_with_backoff
+    response = http_backoff(
+               ^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 596, in http_backoff
+    return next(
+           ^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 504, in _http_backoff_base
+    response = client.request(method=method, url=url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/httpx/_client.py", line 901, in send
+    raise RuntimeError("Cannot send a request, as the client has been closed.")
+RuntimeError: Cannot send a request, as the client has been closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1171, in from_pretrained
+    model_config = AutoConfig.from_pretrained(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 1483, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 667, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 744, in _get_config_dict
+    raise OSError(
+OSError: Can't load the configuration of 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit' is the correct path to a directory containing a config.json file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 130, in main
+    model, tokenizer = load_model(args)
+                       ^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 84, in load_model
+    model, tokenizer = FastVisionModel.from_pretrained(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 787, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1259, in from_pretrained
+    raise RuntimeError(combined_error) from _cause
+RuntimeError: Unsloth: Failed to load model. Both AutoConfig and PeftConfig loading failed.
+
+AutoConfig error: Can't load the configuration of 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit' is the correct path to a directory containing a config.json file
+
+PeftConfig error: Can't find 'adapter_config.json' at 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'
+
+
+W0705 08:13:41.698000 127607 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 127626 closing signal SIGTERM
+W0705 08:13:41.699000 127607 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 127628 closing signal SIGTERM
+W0705 08:13:41.700000 127607 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 127629 closing signal SIGTERM
+E0705 08:13:41.871000 127607 torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 1 (pid: 127627) of binary: /leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/python3.11
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 191, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 371, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+track3/train_sft.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-07-05_08:13:41
+  host      : lrdn3018.leonardo.local
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 127626)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 127626
+[2]:
+  time      : 2026-07-05_08:13:41
+  host      : lrdn3018-net9-3.leonardo.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : -15 (pid: 127628)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 127628
+[3]:
+  time      : 2026-07-05_08:13:41
+  host      : lrdn3018.leonardo.local
+  rank      : 3 (local_rank: 3)
+  exitcode  : -15 (pid: 127629)  (SIGTERM)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 127629
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-07-05_08:13:41
+  host      : lrdn3018.leonardo.local
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 127627) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

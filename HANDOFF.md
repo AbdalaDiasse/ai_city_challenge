@@ -8,11 +8,11 @@ It tracks decisions that changed, things that failed, and the current state so a
 
 ---
 
-## Current State (as of 2026-07-03)
+## Current State (as of 2026-07-05)
 
-**Phase**: Phase 1 — Data setup scripts written, download not yet run.
+**Phase**: Phase 2 — SFT training scripts fixed, ready to resubmit.
 **Active track**: Track 3 (Track 6 deferred to stage 2).
-**Blocker**: Dataset not downloaded yet. Must run `bash track3/download_data.sh` on a Leonardo login node. Videos are ~150 GB.
+**Blocker**: None. Resubmit `train_sft.slurm` — two bugs from first run are fixed.
 
 ### What exists
 - `CLAUDE.md` — project-wide guidance (HPC env, SLURM config, storage path)
@@ -20,26 +20,33 @@ It tracks decisions that changed, things that failed, and the current state so a
 - `track3/download_data.sh` — downloads HF annotations + triggers video download script
 - `track3/data_utils.py` — loads task JSONs, converts to Qwen3-VL conversation format, splits train/val
 - `track3/prepare_dataset.py` — CLI entry point for the full data pipeline
+- `track3/postprocess_videos.py` — post-processes partially downloaded datasets (so-tad, TAD, HTV, barbados)
+- `track3/train_sft.py` — Unsloth SFT fine-tuning script (FastVisionModel + LoRA + SFTTrainer) — **both bugs fixed**
+- `track3/train_sft.slurm` — SLURM job for 1 node × 4 GPU training via torchrun
 - `requirements.txt` — pip dependencies
 - `HANDOFF.md` — this file
 
+### Data on disk ($WORK = /leonardo_work/AIH4A_syrate)
+- `data/track3/annotations/train/*.json` — 10 task JSON files (44,040 items)
+- `data/track3/videos/` — all 8 source datasets downloaded and post-processed
+- `data/track3/train_all.jsonl` — 38,662 training conversations
+- `data/track3/val_all.jsonl` — 4,286 validation conversations
+- `data/track3/dataset_stats.json` — coverage stats
+- **Coverage**: 42,948 / 44,040 (98%) — 1,092 missing from UCF_Crimes and Vad-R1 Normal splits (source files removed upstream, not recoverable)
+
 ### What does not exist yet
-- Training code (`train_sft.py`, `train_sft.slurm`)
 - GRPO code (`train_grpo.py`, `train_grpo.slurm`)
 - Inference / submission code (`inference.py`, `postprocess.py`)
-- Data on disk (`/leonardo_work/AIH4A_syrate/data/track3/` is empty — download not yet run)
 - Any checkpoints
 
 ### Immediate next step
 ```bash
-# On a Leonardo login node:
-bash track3/download_data.sh
-
-# After videos arrive:
-export WORK=/leonardo_work/AIH4A_syrate
-python track3/prepare_dataset.py
+cd /leonardo/home/userexternal/adiasse0/ai/ai_city_challenge
+mkdir -p logs/track3_sft
+sbatch track3/train_sft.slurm
+squeue -u $USER
 ```
-Then move to Phase 2 — write `track3/train_sft.py`.
+Checkpoints land at `$WORK/checkpoints/track3_sft/sft_v1/`.
 
 ---
 
@@ -92,6 +99,8 @@ Then move to Phase 2 — write `track3/train_sft.py`.
 | `~/` may not expand on compute nodes | Use absolute paths in all SLURM scripts |
 | HF cache defaults to home dir (quota risk) | Set `export HF_HOME=$WORK/hf_cache` |
 | `pip list` shows hundreds of packages inside venv | cineca-ai module sets PYTHONPATH; run `unset PYTHONPATH` after venv activation. Venv packages still take precedence at runtime. |
+| `import unsloth` must be FIRST import | Unsloth patches trl/transformers/peft at import time; if those load first, patching is incomplete and training silently uses unoptimized paths. |
+| PyArrow fails on heterogeneous `content` field | Qwen3-VL messages have `content` as string (system/assistant) OR list (user with video). HF `Dataset.from_list` crashes. Fix: use `torch.utils.data.Dataset` subclass (`ConversationDataset`) — bypasses PyArrow entirely. |
 
 ---
 
@@ -102,6 +111,21 @@ Then move to Phase 2 — write `track3/train_sft.py`.
 - Added Unsloth skill (`.claude/skills/unsloth/`) and HuggingFace skills marketplace
 - Confirmed Unsloth venv at `/leonardo/home/userexternal/adiasse0/venvs/unsloth`
 - Reference SLURM template: `../mits/train_cinera.slurm` (uses ms-swift, not Unsloth, but cluster config is proven)
+
+### 2026-07-05 — Phase 2 first job run + two bug fixes (job 48588165)
+- First SLURM job crashed at dataset loading, no GPU time wasted
+- **Bug 1**: `import unsloth` was not the first import → fixed (now line 1 of train_sft.py)
+- **Bug 2**: `Dataset.from_list()` crashed with PyArrow schema conflict on heterogeneous `content` field → fixed by replacing `to_hf_dataset()` with `ConversationDataset(TorchDataset)` class
+- `train_sft.py` is now correct; ready to resubmit as `sft_v1`
+- **Not yet done**: GRPO script, inference script, submission script
+
+### 2026-07-03–04 — Phase 1: data download + post-processing
+- All 8 video datasets downloaded and post-processed to mp4
+- so-tad: 51-part PKWARE zip extracted via 7z (conda p7zip)
+- HTV: 254 .avi transcoded to .mp4 via imageio-ffmpeg
+- TAD: JPG frame folders stitched to mp4 via stitch_tad_frames.py
+- barbados: downloaded via download_videos.py
+- 98% coverage (42,948 / 44,040): 1,092 missing from UCF_Crimes + Vad-R1 Normal splits (removed upstream, not recoverable)
 
 ### 2026-07-03 — Phase 1 data setup implementation
 - Wrote `track3/download_data.sh` — downloads HF annotations + triggers vendor video download script

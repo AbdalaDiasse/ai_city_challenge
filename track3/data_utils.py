@@ -37,7 +37,7 @@ SYSTEM_PROMPT = (
 )
 
 
-def build_conversation(item: dict, video_root: str) -> Optional[dict]:
+def build_conversation(item: dict, video_root: str, fps: float = 1.0) -> Optional[dict]:
     """
     Convert one TAR annotation into Unsloth's multi-modal conversation format.
 
@@ -73,7 +73,7 @@ def build_conversation(item: dict, video_root: str) -> Optional[dict]:
                         # Keep frame count low to manage memory; the model
                         # samples uniformly across the clip.
                         "max_pixels": 360 * 420,
-                        "fps": 1.0,
+                        "fps": fps,
                     },
                     {
                         "type": "text",
@@ -94,7 +94,7 @@ def build_conversation(item: dict, video_root: str) -> Optional[dict]:
     }
 
 
-def load_task_file(json_path: str, video_root: str, task_name: str) -> list[dict]:
+def load_task_file(json_path: str, video_root: str, task_name: str, fps: float = 1.0) -> list[dict]:
     """Load one per-task JSON and convert all items.
 
     Files use the tao-vl-reason-v1.0 wrapper:
@@ -112,7 +112,7 @@ def load_task_file(json_path: str, video_root: str, task_name: str) -> list[dict
     miss_by_source: dict[str, int] = {}
     for item in items:
         item.setdefault("task_type", task_name)
-        conv = build_conversation(item, video_root)
+        conv = build_conversation(item, video_root, fps=fps)
         if conv is not None:
             conversations.append(conv)
         else:
@@ -129,7 +129,7 @@ def load_task_file(json_path: str, video_root: str, task_name: str) -> list[dict
     return conversations
 
 
-def load_all_tasks(annotation_dir: str, video_root: str) -> list[dict]:
+def load_all_tasks(annotation_dir: str, video_root: str, fps: float = 1.0) -> list[dict]:
     """Load and merge all 10 task files. Skips missing files with a warning."""
     all_conversations = []
     total_items = 0
@@ -142,7 +142,7 @@ def load_all_tasks(annotation_dir: str, video_root: str) -> list[dict]:
             print(f"[WARN] Task file not found, skipping: {fpath}")
             continue
         task_name = fname.replace(".json", "")
-        convs = load_task_file(fpath, video_root, task_name)
+        convs = load_task_file(fpath, video_root, task_name, fps=fps)
         all_conversations.extend(convs)
 
         # Accumulate per-source stats from loaded conversations

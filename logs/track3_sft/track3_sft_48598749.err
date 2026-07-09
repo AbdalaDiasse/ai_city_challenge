@@ -1,0 +1,320 @@
+W0705 09:45:12.200000 101026 torch/distributed/run.py:862] 
+W0705 09:45:12.200000 101026 torch/distributed/run.py:862] *****************************************
+W0705 09:45:12.200000 101026 torch/distributed/run.py:862] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0705 09:45:12.200000 101026 torch/distributed/run.py:862] *****************************************
+W0705 09:45:24.864000 101046 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.864000 101047 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.864000 101048 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.897000 101049 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.948000 101049 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.948000 101048 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.948000 101047 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 09:45:24.950000 101046 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1170, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1860, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1171, in from_pretrained
+    model_config = AutoConfig.from_pretrained(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 1483, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 667, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 722, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 498, in cached_files
+    raise OSError(
+OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 130, in main
+    model, tokenizer = load_model(args)
+                       ^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 84, in load_model
+    model, tokenizer = FastVisionModel.from_pretrained(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 784, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1259, in from_pretrained
+    raise RuntimeError(combined_error) from _cause
+RuntimeError: Unsloth: Failed to load model. Both AutoConfig and PeftConfig loading failed.
+
+AutoConfig error: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+PeftConfig error: Can't find 'adapter_config.json' at 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'
+
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1170, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1860, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1171, in from_pretrained
+    model_config = AutoConfig.from_pretrained(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 1483, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 667, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 722, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 498, in cached_files
+    raise OSError(
+OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 130, in main
+    model, tokenizer = load_model(args)
+                       ^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 84, in load_model
+    model, tokenizer = FastVisionModel.from_pretrained(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 784, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1259, in from_pretrained
+    raise RuntimeError(combined_error) from _cause
+RuntimeError: Unsloth: Failed to load model. Both AutoConfig and PeftConfig loading failed.
+
+AutoConfig error: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+PeftConfig error: Can't find 'adapter_config.json' at 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'
+
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 422, in cached_files
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+        return fn(*args, **kwargs)hf_hub_download(
+
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^    ^return _hf_hub_download_to_cache_dir(^
+^^ ^ 
+    File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1170, in _hf_hub_download_to_cache_dir
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1170, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1860, in _raise_on_head_call_error
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1860, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1171, in from_pretrained
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1171, in from_pretrained
+    model_config = AutoConfig.from_pretrained(
+             model_config = AutoConfig.from_pretrained( 
+                ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 1483, in from_pretrained
+^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/models/auto/configuration_auto.py", line 1483, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                       config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs) 
+                  ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 667, in get_config_dict
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 667, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+           config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs) 
+                                ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 722, in _get_config_dict
+^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/configuration_utils.py", line 722, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^    ^resolved_config_file = cached_file(^
+^ ^ ^ ^ ^ ^ ^ 
+    File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 278, in cached_file
+                  ^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^    ^file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)^
+^^^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 498, in cached_files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/transformers/utils/hub.py", line 498, in cached_files
+    raise OSError(
+OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+    raise OSError(
+OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 198, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 130, in main
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 130, in main
+    model, tokenizer = load_model(args)
+                     model, tokenizer = load_model(args) 
+       ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+    File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 84, in load_model
+   ^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 84, in load_model
+    model, tokenizer = FastVisionModel.from_pretrained(
+                model, tokenizer = FastVisionModel.from_pretrained( 
+                    ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 784, in _wrapper
+^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader_utils.py", line 784, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^    ^return fn(*args, **kwargs)^
+^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1259, in from_pretrained
+           ^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/models/loader.py", line 1259, in from_pretrained
+    raise RuntimeError(combined_error) from _cause
+RuntimeError: Unsloth: Failed to load model. Both AutoConfig and PeftConfig loading failed.
+
+AutoConfig error: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+PeftConfig error: Can't find 'adapter_config.json' at 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'
+
+
+    raise RuntimeError(combined_error) from _cause
+RuntimeError: Unsloth: Failed to load model. Both AutoConfig and PeftConfig loading failed.
+
+AutoConfig error: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+
+PeftConfig error: Can't find 'adapter_config.json' at 'unsloth/qwen3-vl-8b-instruct-unsloth-bnb-4bit'
+
+
+W0705 09:45:43.387000 101026 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 101047 closing signal SIGTERM
+W0705 09:45:43.390000 101026 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 101048 closing signal SIGTERM
+W0705 09:45:43.390000 101026 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 101049 closing signal SIGTERM
+E0705 09:45:43.517000 101026 torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 0 (pid: 101046) of binary: /leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/python3.11
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 191, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 371, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+track3/train_sft.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-07-05_09:45:43
+  host      : lrdn3227-net9-3.leonardo.local
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 101047) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2026-07-05_09:45:43
+  host      : lrdn3227.leonardo.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 101048) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2026-07-05_09:45:43
+  host      : lrdn3227-net9-3.leonardo.local
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 101049) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-07-05_09:45:43
+  host      : lrdn3227.leonardo.local
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 101046) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

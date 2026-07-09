@@ -1,0 +1,219 @@
+W0705 07:24:18.265000 2872800 torch/distributed/run.py:862] 
+W0705 07:24:18.265000 2872800 torch/distributed/run.py:862] *****************************************
+W0705 07:24:18.265000 2872800 torch/distributed/run.py:862] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0705 07:24:18.265000 2872800 torch/distributed/run.py:862] *****************************************
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_cutlass_90a.abi3.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so
+Failed to load /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so: Could not load this library: /leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so
+W0705 07:24:30.271000 2872820 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.285000 2872822 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.286000 2872819 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.286000 2872821 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.344000 2872821 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.344000 2872820 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.344000 2872819 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W0705 07:24:30.344000 2872822 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/__init__.py:1377: UserWarning: WARNING: Unsloth should be imported before [trl, transformers, peft] to ensure all optimizations are applied. Your code may run slower or encounter memory issues without these optimizations.
+
+Please restructure your imports with 'import unsloth' at the top of your file.
+  from ._gpu_init import *
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/__init__.py:1377: UserWarning: WARNING: Unsloth should be imported before [trl, transformers, peft] to ensure all optimizations are applied. Your code may run slower or encounter memory issues without these optimizations.
+
+Please restructure your imports with 'import unsloth' at the top of your file.
+  from ._gpu_init import *
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/__init__.py:1377: UserWarning: WARNING: Unsloth should be imported before [trl, transformers, peft] to ensure all optimizations are applied. Your code may run slower or encounter memory issues without these optimizations.
+
+Please restructure your imports with 'import unsloth' at the top of your file.
+  from ._gpu_init import *
+/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/unsloth/__init__.py:1377: UserWarning: WARNING: Unsloth should be imported before [trl, transformers, peft] to ensure all optimizations are applied. Your code may run slower or encounter memory issues without these optimizations.
+
+Please restructure your imports with 'import unsloth' at the top of your file.
+  from ._gpu_init import *
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+<string>:1: FutureWarning: torch._dynamo.config.inline_inbuilt_nn_modules is deprecated and does not do anything, inline_inbuilt_nn_modules is always True. It will be removed in a future version of PyTorch.
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 184, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 110, in main
+    train_ds = to_hf_dataset(train_records)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 64, in to_hf_dataset
+    return Dataset.from_list([{"messages": r["messages"]} for r in records])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1059, in from_list
+    return cls.from_dict(mapping, features, info, split)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1013, in from_dict
+    pa_table = InMemoryTable.from_pydict(mapping=mapping)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/table.py", line 757, in from_pydict
+    return cls(pa.Table.from_pydict(*args, **kwargs))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 1980, in pyarrow.lib._Tabular.from_pydict
+  File "pyarrow/table.pxi", line 6349, in pyarrow.lib._from_pydict
+  File "pyarrow/array.pxi", line 430, in pyarrow.lib.asarray
+  File "pyarrow/array.pxi", line 281, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 118, in pyarrow.lib._handle_arrow_array_protocol
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_writer.py", line 308, in __arrow_array__
+    out = pa.array(cast_to_python_objects(data, only_1d_for_numpy=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 400, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 46, in pyarrow.lib._sequence_to_array
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: cannot mix list and non-list, non-null values
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 184, in <module>
+    main()
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 110, in main
+    train_ds = to_hf_dataset(train_records)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 64, in to_hf_dataset
+    return Dataset.from_list([{"messages": r["messages"]} for r in records])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1059, in from_list
+    return cls.from_dict(mapping, features, info, split)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1013, in from_dict
+    pa_table = InMemoryTable.from_pydict(mapping=mapping)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/table.py", line 757, in from_pydict
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 184, in <module>
+    return cls(pa.Table.from_pydict(*args, **kwargs))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^main()^
+^^^^^^  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 110, in main
+^
+  File "pyarrow/table.pxi", line 1980, in pyarrow.lib._Tabular.from_pydict
+  File "pyarrow/table.pxi", line 6349, in pyarrow.lib._from_pydict
+  File "pyarrow/array.pxi", line 430, in pyarrow.lib.asarray
+  File "pyarrow/array.pxi", line 281, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 118, in pyarrow.lib._handle_arrow_array_protocol
+      File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_writer.py", line 308, in __arrow_array__
+train_ds = to_hf_dataset(train_records)
+               ^^^^^^^^^^^^^^^^Traceback (most recent call last):
+^^  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 184, in <module>
+^^^^^^^^^    ^out = pa.array(cast_to_python_objects(data, only_1d_for_numpy=True))
+
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 64, in to_hf_dataset
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^return Dataset.from_list([{"messages": r["messages"]} for r in records])^
+^^^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^    ^^main()^^
+^^^^^^^^  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 110, in main
+^^^^^^^^^^^^
+^^  File "pyarrow/array.pxi", line 400, in pyarrow.lib.array
+^^^^^^^^^^  File "pyarrow/array.pxi", line 46, in pyarrow.lib._sequence_to_array
+^^^^^^^^  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+^^^^^^^^  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+^^^^^^^^    pyarrow.lib^train_ds = to_hf_dataset(train_records).^
+ArrowInvalid^: ^cannot mix list and non-list, non-null values^ 
+^ ^ ^ ^ ^ ^ ^ ^ 
+    File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1059, in from_list
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/ai/ai_city_challenge/track3/train_sft.py", line 64, in to_hf_dataset
+    return cls.from_dict(mapping, features, info, split)
+           return Dataset.from_list([{"messages": r["messages"]} for r in records]) 
+   ^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1013, in from_dict
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1059, in from_list
+    pa_table = InMemoryTable.from_pydict(mapping=mapping)
+               ^^^^^^^^    ^return cls.from_dict(mapping, features, info, split)^
+^^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/table.py", line 757, in from_pydict
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 1013, in from_dict
+    return cls(pa.Table.from_pydict(*args, **kwargs))
+               ^^^^^^^^^^    ^pa_table = InMemoryTable.from_pydict(mapping=mapping)^
+^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^
+^^  File "pyarrow/table.pxi", line 1980, in pyarrow.lib._Tabular.from_pydict
+^^^^^^^^^^^  File "pyarrow/table.pxi", line 6349, in pyarrow.lib._from_pydict
+^^^^^^^^  File "pyarrow/array.pxi", line 430, in pyarrow.lib.asarray
+^^^^^^^^  File "pyarrow/array.pxi", line 281, in pyarrow.lib.array
+^^^^^^
+  File "pyarrow/array.pxi", line 118, in pyarrow.lib._handle_arrow_array_protocol
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/table.py", line 757, in from_pydict
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_writer.py", line 308, in __arrow_array__
+    out = pa.array(cast_to_python_objects(data, only_1d_for_numpy=True))
+    return cls(pa.Table.from_pydict(*args, **kwargs))
+                 ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "pyarrow/table.pxi", line 1980, in pyarrow.lib._Tabular.from_pydict
+^^^^^^^^^^^  File "pyarrow/table.pxi", line 6349, in pyarrow.lib._from_pydict
+^^^
+  File "pyarrow/array.pxi", line 400, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 430, in pyarrow.lib.asarray
+  File "pyarrow/array.pxi", line 46, in pyarrow.lib._sequence_to_array
+  File "pyarrow/array.pxi", line 281, in pyarrow.lib.array
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/array.pxi", line 118, in pyarrow.lib._handle_arrow_array_protocol
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/datasets/arrow_writer.py", line 308, in __arrow_array__
+pyarrow.lib.ArrowInvalid: cannot mix list and non-list, non-null values
+    out = pa.array(cast_to_python_objects(data, only_1d_for_numpy=True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/array.pxi", line 400, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 46, in pyarrow.lib._sequence_to_array
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: cannot mix list and non-list, non-null values
+W0705 07:24:42.687000 2872800 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2872819 closing signal SIGTERM
+W0705 07:24:42.688000 2872800 torch/distributed/elastic/multiprocessing/api.py:1014] Sending process 2872822 closing signal SIGTERM
+E0705 07:24:42.752000 2872800 torch/distributed/elastic/multiprocessing/api.py:988] failed (exitcode: 1) local_rank: 1 (pid: 2872820) of binary: /leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/python3.11
+Traceback (most recent call last):
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 367, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1016, in main
+    run(args)
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/run.py", line 1007, in run
+    elastic_launch(
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 191, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/leonardo/home/userexternal/adiasse0/venvs/unsloth/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 371, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+track3/train_sft.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-07-05_07:24:42
+  host      : lrdn0404.leonardo.local
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 2872821) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2026-07-05_07:24:42
+  host      : lrdn0404-net2-3.leonardo.local
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2872819) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2026-07-05_07:24:42
+  host      : lrdn0404.leonardo.local
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 2872822) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-07-05_07:24:42
+  host      : lrdn0404.leonardo.local
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2872820) 
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -1,0 +1,50 @@
+Loading cuda/12.1
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload cuda" first.
+
+Loading cineca-ai/4.3.0
+  ERROR: Load of requirement cuda/12.1 failed
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!🦥 Unsloth Zoo will now patch everything to make training faster!🦥 Unsloth Zoo will now patch everything to make training faster!
+🦥 Unsloth Zoo will now patch everything to make training faster!
+
+
+Run      : sft_v1
+Data dir : /leonardo_work/AIH4A_syrate/data/track3
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_v1
+Model    : unsloth/Qwen3-VL-8B-Instruct
+Epochs   : 3  LR: 0.0002  BS: 1  AccumSteps: 4
+
+Loading datasets...
+Run      : sft_v1
+Data dir : /leonardo_work/AIH4A_syrate/data/track3
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_v1
+Model    : unsloth/Qwen3-VL-8B-Instruct
+Epochs   : 3  LR: 0.0002  BS: 1  AccumSteps: 4
+
+Loading datasets...
+Run      : sft_v1
+Data dir : /leonardo_work/AIH4A_syrate/data/track3
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_v1
+Model    : unsloth/Qwen3-VL-8B-Instruct
+Epochs   : 3  LR: 0.0002  BS: 1  AccumSteps: 4
+
+Loading datasets...
+Run      : sft_v1
+Data dir : /leonardo_work/AIH4A_syrate/data/track3
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_v1
+Model    : unsloth/Qwen3-VL-8B-Instruct
+Epochs   : 3  LR: 0.0002  BS: 1  AccumSteps: 4
+
+Loading datasets...
+  train: 38,662  val: 4,286
+Loading model...
+  train: 38,662  val: 4,286
+Loading model...
+  train: 38,662  val: 4,286
+Loading model...
+  train: 38,662  val: 4,286
+Loading model...

@@ -1,0 +1,56 @@
+Loading cuda/12.1
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload cuda" first.
+
+Loading cineca-ai/4.3.0
+  ERROR: Load of requirement cuda/12.1 failed
+Downloading unsloth/Qwen3-VL-8B-Thinking ...
+Download complete.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!🦥 Unsloth Zoo will now patch everything to make training faster!
+🦥 Unsloth Zoo will now patch everything to make training faster!
+🦥 Unsloth Zoo will now patch everything to make training faster!
+
+Rank     : 0 / cuda:0  visible_gpus=4
+Run      : sft_thinking_v1
+Model    : unsloth/Qwen3-VL-8B-Thinking  (BF16 Thinking)
+LoRA     : r=32  alpha=32
+Epochs   : 3  LR: 5e-05  BS: 1  Accum: 4
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1
+
+Loading datasets...
+Rank     : 3 / cuda:3  visible_gpus=4
+Run      : sft_thinking_v1
+Model    : unsloth/Qwen3-VL-8B-Thinking  (BF16 Thinking)
+LoRA     : r=32  alpha=32
+Epochs   : 3  LR: 5e-05  BS: 1  Accum: 4
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1
+
+Loading datasets...
+Rank     : 1 / cuda:1  visible_gpus=4
+Run      : sft_thinking_v1
+Model    : unsloth/Qwen3-VL-8B-Thinking  (BF16 Thinking)
+LoRA     : r=32  alpha=32
+Epochs   : 3  LR: 5e-05  BS: 1  Accum: 4
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1
+
+Loading datasets...
+Rank     : 2 / cuda:2  visible_gpus=4
+Run      : sft_thinking_v1
+Model    : unsloth/Qwen3-VL-8B-Thinking  (BF16 Thinking)
+LoRA     : r=32  alpha=32
+Epochs   : 3  LR: 5e-05  BS: 1  Accum: 4
+Out dir  : /leonardo_work/AIH4A_syrate/checkpoints/track3_sft/sft_thinking_v1
+
+Loading datasets...
+  train: 38,662  val: 4,286
+Loading model...
+  train: 38,662  val: 4,286
+Loading model...
+  train: 38,662  val: 4,286
+Loading model...  train: 38,662  val: 4,286
+
+Loading model...
